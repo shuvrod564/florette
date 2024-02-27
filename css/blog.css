@@ -1,0 +1,87 @@
+.page__header {
+  min-height: 25rem;
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+}
+.page__header .course__detail {
+  text-align: center;
+}
+.page__header .course__detail span {
+  color: var(--blue);
+}
+
+@media (max-width: 991px) {
+  .page__header {
+    min-height: 21rem;
+    padding-top: 11rem;
+  }
+}
+@media (max-width: 575px) {
+  .page__header {
+    min-height: 18rem;
+    padding-top: 9rem;
+  }
+}
+.ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.date {
+  color: #747474;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card__radius {
+  border-radius: 1rem;
+}
+.card__radius .title a {
+  color: var(--heading-color);
+  font-size: 1.375rem;
+}
+.card__radius .title a:hover, .card__radius .title a:focus {
+  color: var(--brand-deep);
+  text-decoration: underline;
+}
+.card__radius .desc__wrap {
+  font-size: 1rem;
+  color: #646464;
+}
+.card__radius .link {
+  color: #0B82DD;
+}
+.card__radius .link:hover {
+  text-decoration: underline;
+}
+
+.detail__box {
+  max-width: 900px;
+  position: relative;
+}
+.detail__box .back__btn {
+  width: 4rem;
+  height: 4rem;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItYXJyb3ctbGVmdCI+PGxpbmUgeDE9IjE5IiB5MT0iMTIiIHgyPSI1IiB5Mj0iMTIiPjwvbGluZT48cG9seWxpbmUgcG9pbnRzPSIxMiAxOSA1IDEyIDEyIDUiPjwvcG9seWxpbmU+PC9zdmc+") no-repeat center center/1.65rem;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 0%;
+  left: -5rem;
+}
+.detail__box .back__btn:hover {
+  background-color: #eeeeee;
+}
+
+.link {
+  color: #0B82DD !important;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.link:hover {
+  text-decoration: none;
+  color: var(--dark) !important;
+}/*# sourceMappingURL=blog.css.map */
