@@ -49,7 +49,7 @@ body {
     color: var(--body-text-color);
     font-weight: 400; 
     font-style: normal; 
-    font-size: 1.1rem; 
+    font-size: 1rem; 
 }
 .owl-carousel .owl-item img { width: auto; }
 
@@ -214,9 +214,9 @@ ul {
 }
 
 .btn-outline-primary {
-    border-color: var(--white);color: var(--brand);
+    border-color: var(--brand);color: var(--brand);
     &:hover, &:focus, &:active {
-        background-color: var(--brand);border-color: var( --btn-color);color: var(--white) !important;
+        background-color: var(--brand);border-color: var( --brand);color: var(--white) !important;
     }
 } 
 .btn-outline-white {

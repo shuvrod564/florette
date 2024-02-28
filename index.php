@@ -21,7 +21,7 @@
     <!-- header section start -->
     <header class="header__wraper">  
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators d-md-none">
                 <li
                     data-bs-target="#carouselId"
                     data-bs-slide-to="0"
@@ -154,39 +154,41 @@
     <!-- header section end --> 
     
     <!-- form section Start -->
-    <div class="container z-index">
-        <div class="receive__quote py-3 py-lg-4 px-4 px-lg-5">
-            <p class="lead fw-normal text-white text-center">Receive a quote tailored to your unique needs and experience moving made easy.</p>
-            <form action="#" class="row g-2 contact__wrapper">
-                <div class="col-md-6 col-lg-3">
-                    <input type="text" name="name" id="name" placeholder="Moving from" class="form-control rounded-0">
-                    <div class="small text-danger error" id="name_error"></div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <input type="text" name="phone" id="phone" placeholder="Moving To" class="form-control rounded-0">
-                    <div class="small text-danger error" id="phone_error"></div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <select name="service" id="service" class="form-select rounded-0" required="required">
-                        <option value="">Select A Service *</option>
-                        <option value="International Move">International Move</option>
-                        <option value=" Corporate Relocation">Corporate Relocation</option>
-                        <option value=" Domestic Move">Domestic Move</option>
-                        <option value=" Office Move">Office Move</option>
-                        <option value=" Storage &amp; Warehousing">Storage &amp; Warehousing</option>
-                        <option value=" Pet Relocation">Pet Relocation</option>
-                        <option value=" Specialized Container Shipping For Global Trade">Specialized Container Shipping For Global Trade</option>
-                        <option value=" Comprehensive Insurance">Comprehensive Insurance</option>
-                        <option value=" Inbound Service">Inbound Service</option>
-                    </select>
-                    <div class="small text-danger error" id="email_error"></div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <button class="btn btn-primary height rounded-pill px-4 px-lg-5 w-100">GET A QUOTE</button> 
-                </div>  
-            </form>  
+    <div class=" py-4 py-md-0 contact__wrapper"> 
+        <div class="container z-index">
+            <div class="receive__quote py-3 py-lg-4 px-4 px-lg-5">
+                <p class="lead fw-normal text-white text-center">Receive a quote tailored to your unique needs and experience moving made easy.</p>
+                <form action="#" class="row g-2">
+                    <div class="col-md-6 col-lg-3">
+                        <input type="text" name="name" id="name" placeholder="Moving from" class="form-control rounded-0">
+                        <div class="small text-danger error" id="name_error"></div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <input type="text" name="phone" id="phone" placeholder="Moving To" class="form-control rounded-0">
+                        <div class="small text-danger error" id="phone_error"></div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <select name="service" id="service" class="form-select rounded-0" required="required">
+                            <option value="">Select A Service *</option>
+                            <option value="International Move">International Move</option>
+                            <option value=" Corporate Relocation">Corporate Relocation</option>
+                            <option value=" Domestic Move">Domestic Move</option>
+                            <option value=" Office Move">Office Move</option>
+                            <option value=" Storage &amp; Warehousing">Storage &amp; Warehousing</option>
+                            <option value=" Pet Relocation">Pet Relocation</option>
+                            <option value=" Specialized Container Shipping For Global Trade">Specialized Container Shipping For Global Trade</option>
+                            <option value=" Comprehensive Insurance">Comprehensive Insurance</option>
+                            <option value=" Inbound Service">Inbound Service</option>
+                        </select>
+                        <div class="small text-danger error" id="email_error"></div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <button class="btn btn-primary height rounded-pill px-4 px-lg-5 w-100">GET A QUOTE</button> 
+                    </div>  
+                </form>  
+            </div> 
         </div> 
-    </div> 
+    </div>
     <!-- form section End -->
 
     <!-- Services Wrapper Start -->
@@ -197,7 +199,7 @@
                 At Florette Movers, We Are Dedicated To Conducting Continuous Research And Consistently Improving Our Services To The Highest Standards.
             </p>
 
-            <div class="row gx-3 row-cols-xl-6 row-cols-md-3 row-cols-sm-2 justify-content-center mt-4 mt-lg-5 text-center"> 
+            <div class="row gx-3 row-cols-xl-6 row-cols-md-3 row-cols-sm-2 row-cols-2 justify-content-center mt-4 mt-lg-5 text-center"> 
                 <div> 
                     <div class="service__item">
                         <a href="#" class="block"> 
@@ -281,25 +283,25 @@
             </p>
 
             <div class="row gx-4 mt-4 mt-lg-5">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <p class="text-1a text-center text-uppercase">
                         <span class="display-4 fw-medium text-1a d-block mb-3 counter" data-count="25">0</span>
                         Employees In Team 
                     </p> 
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <p class="text-1a  text-center text-uppercase">
                         <span class="display-4 fw-medium text-1a d-block mb-3 counter" data-count="3">0</span>
                         Company Vehicles
                     </p> 
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <p class="text-1a  text-center text-uppercase">
                         <span class="display-4 fw-medium text-1a d-block mb-3 counter" data-count="86">0</span>
                         Corporates We Serve
                     </p> 
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <p class="text-1a  text-center text-uppercase">
                         <span class="display-4 fw-medium text-1a d-block mb-3 counter" data-count="9867">0</span>
                         Projects Done
@@ -329,15 +331,18 @@
             </p>
 
             <div class="row g-4 gx-lg-5 pt-lg-3 align-items-center">
-                <div class="col-lg-5 col-md-6">
-                    <figure>
-                        <img src="assets/images/home/choose-us-one.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
-                    </figure>
-                    <figure>
-                        <img src="assets/images/home/choose-us-tow.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
-                    </figure>
+                <div class="col-lg-5">
+                    <div class="row g-2 g-sm-3 g-xl-4">
+
+                        <figure class="col-6 col-lg-12 mb-0">
+                            <img src="assets/images/home/choose-us-one.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
+                        </figure>
+                        <figure class="col-6 col-lg-12 mb-0">
+                            <img src="assets/images/home/choose-us-tow.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
+                        </figure>
+                    </div>
                 </div><!--//.col-->
-                <div class="col-lg-7 col-md-6">
+                <div class="col-lg-7">
                     <div class="d-flex flex-column gap-4 gap-lg-5">
                         <div class="d-flex align-items-start gap-4 gap-lg-5">
                             <div class="why_choose_icon_box"> 
@@ -608,7 +613,7 @@
 
             <div class="col-lg-11 mx-auto text-center text-lg-end mt-4 mt-lg-5">
                 <div class="row flex-wrap g-3 gx-4">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="9867">0</span>
@@ -619,7 +624,7 @@
                             </figure> 
                         </div>
                     </div><!--//.col-->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="25">0</span>
@@ -630,7 +635,7 @@
                             </figure> 
                         </div>
                     </div><!--//.col-->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="86">0</span>
@@ -641,7 +646,7 @@
                             </figure> 
                         </div>
                     </div><!--//.col-->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="3">0</span>
@@ -652,7 +657,7 @@
                             </figure> 
                         </div>
                     </div><!--//.col-->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="10000">0</span>
@@ -663,7 +668,7 @@
                             </figure> 
                         </div>
                     </div><!--//.col-->
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 col-6">
                         <div class="d-flex align-items-center gap-3 supply__card transition p-3 p-sm-4 rounded-4">
                             <h3 class="display-4 text-13 fw-bold mb-0 col text-end"> 
                                 <span class="counter" data-count="10000">0</span>
@@ -849,60 +854,69 @@
     <!-- Latest News section Start -->
     <section class="py-5">
         <div class="container mt-lg-3">
-            <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase">Latest News</h2>
-            <p class="text-center" style="color: #020202;">Connecting cargo markets and the world</p>
-            <div class="row g-4 gx-4 gx-lg-5">
-                <div class="col-lg-3 col-md-6">
-                    <div class="bg-white overflow-hidden p-2">
+            <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase mb-4">Latest News</h2>
+            <p class="text-center lead mb-4" style="color: #020202;">Connecting cargo markets and the world</p>
+            <div class="row gx-4 gy-4">
+                <div class="col-lg-3 col-6">
+                    <div class="bg-white overflow-hidden">
                         <a href="#" class="d-block thumbnail">
-                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                            <img src="assets/images/blog/blog-1.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
                         </a>
                         <div class="bg-white pt-4">
-                            <p class="fw-medium">
-                                How to convert India license to Malayasia ?
-                            </p>
+                            <h3 class="fw-medium fs-4">
+                                <a href="#">
+                                    How to convert India license to Malayasia ?
+                                </a>
+                            </h3>
                         </div>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
-                    <div class="bg-white overflow-hidden p-2">
+                <div class="col-lg-3 col-6">
+                    <div class="bg-white overflow-hidden">
                         <a href="#" class="d-block thumbnail">
-                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                            <img src="assets/images/blog/blog-2.webp" class="img-fluid w-100" width="362" height="100" alt="Customs regulations in India ">
                         </a>
                         <div class="bg-white pt-4">
-                            <p class="fw-medium">
-                                Customs regulations in India
-                            </p>
+                            <h3 class="fw-medium fs-4">
+                                <a href="#">
+                                    Customs regulations in India 
+                                </a>
+                            </h3>
                         </div>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
-                    <div class="bg-white overflow-hidden p-2">
+                <div class="col-lg-3 col-6">
+                    <div class="bg-white overflow-hidden">
                         <a href="#" class="d-block thumbnail">
-                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                            <img src="assets/images/blog/blog-3.webp" class="img-fluid w-100" width="362" height="100" alt="Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait ">
                         </a>
                         <div class="bg-white pt-4">
-                            <p class="fw-medium">
-                                Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait
-                            </p>
+                            <h3 class="fw-medium fs-4">
+                                <a href="#">
+                                    Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait 
+                                </a>
+                            </h3>
                         </div>
                     </div>
                 </div><!--//.col-->
-                <div class="col-lg-3 col-md-6">
-                    <div class="bg-white overflow-hidden p-2">
+                <div class="col-lg-3 col-6">
+                    <div class="bg-white overflow-hidden">
                         <a href="#" class="d-block thumbnail">
-                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                            <img src="assets/images/blog/blog-4.webp" class="img-fluid w-100" width="362" height="100" alt="Immigration Update – Malaysia ">
                         </a>
                         <div class="bg-white pt-4">
-                            <p class="fw-medium">
-                                Immigration Update – Malaysia
-                            </p>
+                            <h3 class="fw-medium fs-4">
+                                <a href="#">
+                                    Immigration Update – Malaysia 
+                                </a>
+                            </h3>
                         </div>
                     </div>
                 </div><!--//.col-->
+                 
             </div><!--//.row-->
             <div class="text-center mt-5">
-                <button type="button" class="btn btn-outline-danger height px-4 rounded-pill">VIEW ALL</button> 
+                <a href="#" type="button" class="btn btn-outline-primary height px-5 rounded-pill">VIEW ALL</a> 
             </div> 
         </div><!--//.container-->
     </section>
@@ -919,7 +933,7 @@
         <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase">FAQ</h2> 
             <div class="faq__wrapper mx-auto"> 
                 <div class="row g-0 g-lg-3">
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-6">
                         <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq1">
                             <div class="accordion-item">
                                 <h3 class="accordion-header" id="flushProcess1">
@@ -984,7 +998,7 @@
                         </div><!--.//accordion--> 
                     </div><!--.//col-->  
 
-                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="col-lg-6">
                         <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq2">
                             <div class="accordion-item">
                                 <h3 class="accordion-header" id="flushPro1">

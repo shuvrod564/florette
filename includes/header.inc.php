@@ -16,28 +16,59 @@
 
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">   
-                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4 dropdown"> 
+                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
                         <a class="nav-link py-3" href="#">
                            Home
                         </a>  
                     </li>
-                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4 dropdown"> 
+                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
                         <a class="nav-link py-3" href="#">
                             About Us 
                         </a>  
                     </li>
-                    <li class="nav-item dropdown ms-3 ms-lg-3 ms-xxl-4">    
-                        <a class="nav-link py-3" href="#">
+                    <li class="nav-item ms-3 ms-lg-3 ms-xxl-4 dropdown">    
+                        <a class="nav-link py-3 dropdown-toggle" href="#" type="button" id="serviceDrop" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>  
+                        <div class="dropdown-menu p-2 bg-white rounded-3" aria-labelledby="serviceDrop"> 
+                            <ul class="d-flex flex-column gap-1">         
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">International Relocation</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Corporate Relocation</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Domestic Move</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Office Relocation</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Storage And Warehousing</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Pet Relocation</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Specialized Container Shipping Solutions for Global Trade</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Comprehensive Insurance</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Inbound Services</a>
+                                </li>
+                            </ul>
+                        </div>  
                     </li>   
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
                         <a class="nav-link py-3" href="programs.php">
                             Gallery
                         </a>  
                     </li>
-                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4 dropdown"> 
-                        <a class="nav-link py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
+                        <a class="nav-link py-3" href="#">
                             Blog/News
                         </a>  
                     </li> 
@@ -47,9 +78,9 @@
                 </ul> 
             </div>   
             <div class=""> 
-                <a href="#" class="ms-3 fw-semibold d-none d-sm-inline-flex" aria-label="Get Started" style="color: #D7121B;">
-                    <img src="assets/images/icons/call.svg" class="img-fluid me-2" width="18" height="18" alt="phone">
-                    +6 012 748 2799
+                <a href="tel:+60127482799" class="ms-3 fw-semibold d-none fs-4 d-sm-inline-flex align-items-center gap-2 text-white py-1" aria-label="+6 012 748 2799" title="+6 012 748 2799">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path fill="#fff" d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+                    <span>+6 012 748 2799</span>
                 </a> 
                
     
@@ -76,11 +107,33 @@
                     </a> 
                  
                     <ul class="collapse" id="collapse1"> 
-                        <li><a class="dropdown-item" href="#">Coaching</a></li> 
-                        <li><a class="dropdown-item" href="youth-traning.php">Youth Training and Mentoring</a></li> 
-                        <li><a class="dropdown-item" href="#">Corporate Training</a></li> 
-                        <li><a class="dropdown-item" href="#">Soft Skill Training for Corporates and Universities</a></li> 
-                        <li><a class="dropdown-item" href="#">Women Empowerment Coaching</a></li> 
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">International Relocation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Corporate Relocation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Domestic Move</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Office Relocation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Storage And Warehousing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Pet Relocation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Specialized Container Shipping Solutions for Global Trade</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Comprehensive Insurance</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item rounded-1">Inbound Services</a>
+                        </li>
                     </ul>
                 </li>
                 <li>

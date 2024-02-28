@@ -4,9 +4,9 @@ footer {
     
     a { 
         color: var(--white);
-        text-transform: capitalize;   
-        font-size: .937rem; 
+        text-transform: capitalize;    
         font-weight: 400;
+        font-size: .937rem;
         &:hover { 
             text-decoration: underline;color: var(--blue);
         } 
@@ -14,15 +14,37 @@ footer {
   
 }
 
+.social__links {
+    li {
+        margin-bottom: 0; 
+        a {
+            width: 2.5rem;
+            height: 2.5rem;border-radius: 50%;
+            
 
-.section__footer{
-    .border__bottom{
-        border: 1px solid #2a2a2a;
-    }  
-    .border__top{
-        border: 1px solid #2a2a2a;
+            svg { width: 1.25rem;height: 1.25rem;fill: var(--brand-deep); }
+
+            &:hover, &:focus {
+                background-color: var(--dark);color: var(--white);
+
+                svg {
+                    fill: white;
+                }
+            }
+
+            &.fb {
+                background-color: #3b5998;
+            }
+            &.tw {
+                background-color: #1da1f2;
+            }
+            &.you {
+                background-color: #cd201f;
+            }
+        } 
     } 
 }
+ 
 /*---------------------- Back to Top Css --------------*/ 
  
 .backTop { 

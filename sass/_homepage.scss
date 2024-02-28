@@ -33,12 +33,14 @@
      
 }
  
+@media (min-width:2000px) {
+    .slider__item {
+        min-height: 1080px;
+    }
+}
  
-.receive__quote{  
-    margin-top: -13rem;
-    background-color: rgba(0, 0, 0, 0.54) !important;
-    border-radius: 28px;   
-} 
+ 
+
 .contact__wrapper {
     .form-control, .form-select {
         height: 3.25rem; 
@@ -58,7 +60,20 @@
     }
 }
 
+@media (min-width:767px) {
+    .receive__quote {
+        margin-top: -13rem;background-color: rgba(0, 0, 0, 0.54) !important;
+        border-radius: 28px;   
+    }
+}
 
+@media (max-width:767px) {
+    .contact__wrapper {
+        background-color: var(--secondary);  
+    }
+}
+
+ 
 
 .service__item {
     img {
@@ -179,7 +194,7 @@
         display: flex;
 
         .owl-item {
-            display: flex;padding: 1px;
+            display: flex;padding: 2px;
 
             .service__card { width: 100%; }
         }

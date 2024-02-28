@@ -1,4 +1,4 @@
-<section class="testimonial__wrapper d-flex align-items-start position-relative py-4 py-lg-5">  
+<section class="testimonial__wrapper d-flex align-items-start position-relative pt-5 pb-4 py-lg-5">  
         <img 
             src="assets/images/home/our-success-bg.webp" 
             srcset="
@@ -17,7 +17,7 @@
             <p class="text-center text-white">Our Clients Portray Who We Are, At Our Best.</p>
             
             <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators d-md-none">
+                <ol class="carousel-indicators d-none">
                     <li
                         data-bs-target="#carouselTestimonial"
                         data-bs-slide-to="0"
