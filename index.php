@@ -853,113 +853,207 @@
             <p class="text-center" style="color: #020202;">Connecting cargo markets and the world</p>
             <div class="row g-4 gx-4 gx-lg-5">
                 <div class="col-lg-3 col-md-6">
-
+                    <div class="bg-white overflow-hidden p-2">
+                        <a href="#" class="d-block thumbnail">
+                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                        </a>
+                        <div class="bg-white pt-4">
+                            <p class="fw-medium">
+                                How to convert India license to Malayasia ?
+                            </p>
+                        </div>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-white overflow-hidden p-2">
+                        <a href="#" class="d-block thumbnail">
+                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                        </a>
+                        <div class="bg-white pt-4">
+                            <p class="fw-medium">
+                                Customs regulations in India
+                            </p>
+                        </div>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-white overflow-hidden p-2">
+                        <a href="#" class="d-block thumbnail">
+                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                        </a>
+                        <div class="bg-white pt-4">
+                            <p class="fw-medium">
+                                Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait
+                            </p>
+                        </div>
+                    </div>
+                </div><!--//.col-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="bg-white overflow-hidden p-2">
+                        <a href="#" class="d-block thumbnail">
+                            <img src="blog/images/demo/Driving-Licence.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
+                        </a>
+                        <div class="bg-white pt-4">
+                            <p class="fw-medium">
+                                Immigration Update – Malaysia
+                            </p>
+                        </div>
+                    </div>
                 </div><!--//.col-->
             </div><!--//.row-->
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-outline-danger height px-4 rounded-pill">VIEW ALL</button> 
+            </div> 
         </div><!--//.container-->
     </section>
     <!-- Latest News section End -->
 
 
-    <!-- Faq Wrapper Start -->
-    <section class="py-5">
+
+
+
+
+    <!-- FAQ section Start -->
+    <section class="py-4 py-md-5">
         <div class="container">
-            <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase">FAQ</h2> 
+        <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase">FAQ</h2> 
+            <div class="faq__wrapper mx-auto"> 
+                <div class="row g-0 g-lg-3">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq1">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushProcess1">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSales1" aria-expanded="false" aria-controls="flushSales1">
+                                        Who are the top-rated movers in Malaysia for international relocation?
+                                    </button>
+                                </h3>
+                                <div id="flushSales1" class="accordion-collapse collapse" aria-labelledby="flushProcess1" data-bs-parent="#accordionFaq1">
+                                    <div class="accordion-body">
+                                        <p>We're proud to be among the top-rated, offering seamless international relocation services with a personal touch</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushProcess2">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSales2" aria-expanded="false" aria-controls="flushSales2">
+                                        What are the best international moving companies in Malaysia for overseas transfers?
+                                    </button>
+                                </h3>
+                                <div id="flushSales2" class="accordion-collapse collapse" aria-labelledby="flushProcess2" data-bs-parent="#accordionFaq1">
+                                    <div class="accordion-body">
+                                        <p>Look for companies with extensive global networks, like ours, ensuring a smooth transfer anywhere in the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushProcess3">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSales3" aria-expanded="false" aria-controls="flushSales3">
+                                        How to find reliable international movers in Kuala Lumpur for a smooth move?
+                                    </button>
+                                </h3>
+                                <div id="flushSales3" class="accordion-collapse collapse" aria-labelledby="flushProcess3" data-bs-parent="#accordionFaq1">
+                                    <div class="accordion-body">
+                                        <p>Check for movers with stellar reviews and a proven track record in Kuala Lumpur, much like our esteemed services.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item ">
+                                <h3 class="accordion-header" id="flushProcess4">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSales4" aria-expanded="false" aria-controls="flushSales4">
+                                        Which international movers and packers in Malaysia offer comprehensive moving services?
+                                    </button>
+                                </h3>
+                                <div id="flushSales4" class="accordion-collapse collapse" aria-labelledby="flushProcess4" data-bs-parent="#accordionFaq1">
+                                    <div class="accordion-body">
+                                        <p>We offer a full suite of services, from packing to customs clearance, making us a go-to choice for comprehensive needs.</p> 
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="accordion-item ">
+                                <h3 class="accordion-header" id="flushProcess5">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSales5" aria-expanded="false" aria-controls="flushSales5">
+                                        Affordable international packers and movers in Kuala Lumpur with excellent reviews?
+                                    </button>
+                                </h3>
+                                <div id="flushSales5" class="accordion-collapse collapse" aria-labelledby="flushProcess5" data-bs-parent="#accordionFaq1">
+                                    <div class="accordion-body">
+                                        <p>Our competitive pricing and glowing testimonials reflect our commitment to affordability and quality.</p> 
+                                    </div>
+                                </div>
+                            </div> 
+                        </div><!--.//accordion--> 
+                    </div><!--.//col-->  
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="accordion accordion-flush no__icons mt-3 mt-lg-4 mx-auto" id="accordionFaq2">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushPro1">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSa1" aria-expanded="false" aria-controls="flushSa1">
+                                        Comparing costs of international moving companies in Malaysia for budget planning?
+                                    </button>
+                                </h3>
+                                <div id="flushSa1" class="accordion-collapse collapse" aria-labelledby="flushPro1" data-bs-parent="#accordionFaq2">
+                                    <div class="accordion-body">
+                                        <p>We recommend getting personalized quotes from us for transparent and detailed budget planning.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushPro2">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSa2" aria-expanded="false" aria-controls="flushSa2">
+                                        Experienced international movers in Kuala Lumpur specializing in India relocations?
+                                    </button>
+                                </h3>
+                                <div id="flushSa2" class="accordion-collapse collapse" aria-labelledby="flushPro2" data-bs-parent="#accordionFaq2">
+                                    <div class="accordion-body">
+                                        <p>Our expertise in India relocations is unmatched, thanks to our dedicated team and extensive experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flushPro3">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSa3" aria-expanded="false" aria-controls="flushSa3">
+                                        International movers and packers in Malaysia with storage solutions?
+                                    </button>
+                                </h3>
+                                <div id="flushSa3" class="accordion-collapse collapse" aria-labelledby="flushPro3" data-bs-parent="#accordionFaq2">
+                                    <div class="accordion-body">
+                                        <p>Yes, we provide secure and flexible storage solutions for your belongings during the transition.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item ">
+                                <h3 class="accordion-header" id="flushPro4">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSa4" aria-expanded="false" aria-controls="flushSa4">
+                                        Customs clearance support by international packers and movers in Kuala Lumpur?
+                                    </button>
+                                </h3>
+                                <div id="flushSa4" class="accordion-collapse collapse" aria-labelledby="flushPro4" data-bs-parent="#accordionFaq2">
+                                    <div class="accordion-body">
+                                        <p>Absolutely, our team ensures smooth customs clearance, guiding you through every paperwork detail.</p> 
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="accordion-item ">
+                                <h3 class="accordion-header" id="flushPro5">
+                                    <button class="accordion-button fw-medium lead-sm collapsed py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flushSa5" aria-expanded="false" aria-controls="flushSa5">
+                                        Eco-friendly packing options from international moving companies in Malaysia?
+                                    </button>
+                                </h3>
+                                <div id="flushSa5" class="accordion-collapse collapse" aria-labelledby="flushPro5" data-bs-parent="#accordionFaq2">
+                                    <div class="accordion-body">
+                                        <p>We're committed to sustainability, offering eco-friendly packing options to minimize environmental impact.</p> 
+                                    </div>
+                                </div>
+                            </div> 
+                        </div><!--.//accordion--> 
+                    </div><!--.//col-->  
+                </div><!--.//row-->
+            </div><!--.//faq__wrapper-->
         </div><!--.//container-->
-        <div class="container-fluid">
-            <div class="row gx-4 gy-0">
-                <div class="col-lg-6">
-                    <div class="accordion" id="accordionFaq">
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf001">
-                                <button class="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef001" aria-expanded="true" aria-controls="collapsef001">
-                                What are the first steps to setting up a business in the GCC?
-                                </button>
-                            </h3>
-                            <div id="collapsef001" class="accordion-collapse collapse show" aria-labelledby="headingf001" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p>
-                                        Before you can begin, you must first select a business structure (such as an LLC or Free Zone entity), acquire the required licences (SAGIA/MISA for Saudi Arabia, DED for the UAE, etc.), and comprehend the particular legal prerequisites of the GCC nation you are entering. A well-defined company plan and a comprehensive market analysis are also essential. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf002">
-                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef002" aria-expanded="false" aria-controls="collapsef002">
-                                Can foreign investors own 100% of a business in the GCC?
-                                </button>
-                            </h3>
-                            <div id="collapsef002" class="accordion-collapse collapse" aria-labelledby="headingf002" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p>
-                                        Sure, especially in GCC Free Zones, foreign investors can hold 100% of the company in many circumstances. However, depending on the nation and type of business, mainland setups might require a local sponsor or partner. Foreign investment with 100% ownership is becoming more and more preferred in several sectors thanks to recent reforms in numerous GCC nations. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf003">
-                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef003" aria-expanded="false" aria-controls="collapsef003">
-                                How long does it take to set up a business in the GCC?
-                                </button>
-                            </h3>
-                            <div id="collapsef003" class="accordion-collapse collapse" aria-labelledby="headingf003" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p> 
-                                        Depending on the nation, the nature of commercial activity, and the setup type (free zone or mainland), the timeline can differ greatly. In general, it can take a few weeks to many months. By employing a service like TrustLink, you can expedite this procedure and make sure that all legal and regulatory requirements are satisfied effectively. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf004">
-                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef004" aria-expanded="false" aria-controls="collapsef004">
-                                What are the major legal considerations for GCC business setup?
-                                </button>
-                            </h3>
-                            <div id="collapsef004" class="accordion-collapse collapse" aria-labelledby="headingf004" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p> 
-                                        It is important to fully understand the legal system of the particular GCC nation. This includes adherence to regional labour laws, business statutes, and sector-specific guidelines. For operations to run smoothly, it is also essential that all business documents are properly authenticated and follow local norms and procedures. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf005">
-                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef005" aria-expanded="false" aria-controls="collapsef005">
-                                How can TrustLink assist with business setup in the GCC?
-                                </button>
-                            </h3>
-                            <div id="collapsef005" class="accordion-collapse collapse" aria-labelledby="headingf005" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p>
-                                        TrustLink provides comprehensive services for company formation in GCC, encompassing legal counsel, document attestation, financial guidance, market analysis, and visa processing services. Our knowledge and familiarity with the area guarantee a smooth setup procedure that is customised to your unique goals and business requirements. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>  
-                        <div class="accordion-item rounded-0 border-0">
-                            <h3 class="accordion-header" id="headingf006">
-                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef006" aria-expanded="false" aria-controls="collapsef006">
-                                What support does TrustLink offer for legal and regulatory compliance in GCC?
-                                </button>
-                            </h3>
-                            <div id="collapsef006" class="accordion-collapse collapse" aria-labelledby="headingf006" data-bs-parent="#accordionFaq">
-                                <div class="accordion-body"> 
-                                    <p>
-                                        TrustLink provides comprehensive support for legal and regulatory compliance in the GCC This includes facilitating licencing and permits, assisting with legal documentation, providing guidance on regulatory compliance, assisting with corporate structuring, conducting due diligence, and notifying clients of regulatory updates. These services make it possible for companies to function within the law, reduce risks, and adjust to the GCC's changing regulatory environment. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>  
-                    </div><!--.//accordion-->
-                </div><!--.//col-->
-            </div>
-        </div><!--.//container-->
-    </section>
-    <!-- Faq Wrapper End -->
+    </section>  
+    <!-- FAQ section End -->
+
 
 
 

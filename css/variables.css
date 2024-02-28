@@ -640,6 +640,59 @@ ul li {
 .navbar {
   padding: 0.875rem 0;
   z-index: 999;
+  /* // .dropdown-toggle::after { 
+  //     vertical-align: .1em; 
+  //     border-top: .4em solid;
+  // }
+  // .dropdown {  
+  //     -webkit-appearance:none;
+  //     .dropdown-menu {
+  //         position: absolute;
+  //         top: 96%;
+  //         left: 19%;
+  //         width: 100%; 
+  //         max-width: 15rem;
+  //         min-width: 12rem; 
+  //         transition: all .3s ease;
+  //         transform: scaleY(0); 
+  //         opacity: 0;padding: 0%;
+  //         visibility: hidden;
+  //         box-shadow: 0 .25rem .5rem rgba($color: #000000, $alpha: 0.15);
+
+  //         &.service__menu {
+  //             min-width: 23rem;
+  //         } 
+
+  //         .dropdown-item { 
+  //             color: var(--link-color); 
+  //             font-size: 1.067rem;  
+  //             display: block;font-weight: 500;
+  //             padding: .75rem 1rem;
+  //             position: relative;  
+  //             word-break: break-all;
+  //             white-space: pre-line;
+
+  //             &:hover, &:focus, &:active {
+  //                 color: var(--white); background-color: var(--brand);
+  //             }  
+  //             &:not(:last-child) {
+  //                 border-bottom: 1px solid #eee;
+  //             }
+  //         }
+
+  //         &.show {
+  //             transform: scaleY(1);
+  //             opacity: 1;
+  //             visibility: visible; 
+  //         }
+  //     } 
+
+  //     &:hover {
+  //         &>.nav-link {
+  //             color: var(--brand); 
+  //         }
+  //     }
+  // } */
 }
 .navbar .navbar-brand img {
   height: 5rem;
