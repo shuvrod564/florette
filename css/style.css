@@ -95,6 +95,13 @@
   transform: translateX(-50%);
 }
 
+@media (min-width: 992px) {
+  .unic_wrap.lg_right::after {
+    right: 0%;
+    left: auto;
+    width: 4rem;
+  }
+}
 .why_choose_icon_box {
   width: 5rem;
 }
