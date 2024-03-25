@@ -114,15 +114,4 @@
     <!-- JS: Designer Script --> 
     <script src="<?php echo $base_url;?>assets/js/script.js"></script>  
 
-    <!-- For contact page load the map after page fully load -->
-    <script> 
-        document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector("body").style.visibility = "hidden";
-                document.querySelector("#preloader").style.visibility = "visible"; 
-            } else {
-                document.querySelector("#preloader").style.display = "none";
-                document.querySelector("body").style.visibility = "visible"; 
-            }
-        };
-    </script>   
+ 

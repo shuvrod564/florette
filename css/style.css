@@ -77,7 +77,7 @@
 
 .unic_wrap {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .unic_wrap::after {
   content: "";
@@ -87,7 +87,7 @@
   height: 3px;
   background-color: #D7121A;
   border-radius: 2.25rem;
-  bottom: -1rem;
+  bottom: -0.75rem;
   left: 0;
 }
 .unic_wrap.center::after {
@@ -171,6 +171,15 @@
   width: 100%;
 }
 
+@media (min-width: 992px) {
+  .positioned__banner__box {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 50vw;
+    height: auto;
+  }
+}
 @media (min-width: 1920px) {
   .header__wraper {
     min-height: 1080px;
@@ -250,21 +259,22 @@
   }
 }
 .page__header {
-  min-height: 24rem;
-  padding-top: 9rem;
-  padding-bottom: 3rem;
+  min-height: 28rem;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
 }
 
 @media (max-width: 992px) {
   .page__header {
-    min-height: 20rem;
-    padding-bottom: 2rem;
+    min-height: 24rem;
+    padding-top: 11rem;
   }
 }
 @media (max-width: 576px) {
   .page__header {
-    min-height: 14rem;
-    padding-top: 6rem;
+    min-height: 23rem;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
   }
 }
 .caption__card {

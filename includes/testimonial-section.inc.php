@@ -14,7 +14,7 @@
             <h2 class="fs-1 fw-normal unic_wrap center text-white text-center text-uppercase">
                 Our Success Starts With Them
             </h2>  
-            <p class="text-center text-white">Our Clients Portray Who We Are, At Our Best.</p>
+            <p class="text-center text-white lead fw-normal ">Our Clients Portray Who We Are, At Our Best.</p>
             
             <div id="carouselTestimonial" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators d-none">

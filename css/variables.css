@@ -9,7 +9,7 @@
   --title-color: #030303;
   --mini-text-color:#121212;
   --white: #ffffff;
-  --body-text-color: #000;
+  --body-text-color: #252525;
   --border-radius: .35rem;
   --br: 10px;
   --border-color: #707070;
@@ -132,6 +132,10 @@ body {
 
 .bg-dark {
   background-color: var(--dark) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
 }
 
 .bg-gradient {
@@ -564,78 +568,6 @@ ul li {
     margin-right: auto;
   }
 }
-#preloader {
-  z-index: 1050;
-}
-#preloader .loader {
-  animation: rotate 1s infinite;
-  height: 50px;
-  width: 50px;
-}
-#preloader .loader:before,
-#preloader .loader:after {
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 20px;
-  width: 20px;
-}
-#preloader .loader:before {
-  animation: ball1 1s infinite;
-  background-color: #cb2025;
-  box-shadow: 30px 0 0 #f8b334;
-  margin-bottom: 10px;
-}
-#preloader .loader:after {
-  animation: ball2 1s infinite;
-  background-color: #00a096;
-  box-shadow: 30px 0 0 #97bf0d;
-}
-@keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) scale(0.8);
-    -moz-transform: rotate(0deg) scale(0.8);
-  }
-  50% {
-    -webkit-transform: rotate(360deg) scale(1.2);
-    -moz-transform: rotate(360deg) scale(1.2);
-  }
-  100% {
-    -webkit-transform: rotate(720deg) scale(0.8);
-    -moz-transform: rotate(720deg) scale(0.8);
-  }
-}
-@keyframes ball1 {
-  0% {
-    box-shadow: 30px 0 0 #f8b334;
-  }
-  50% {
-    box-shadow: 0 0 0 #f8b334;
-    margin-bottom: 0;
-    -webkit-transform: translate(15px, 15px);
-    -moz-transform: translate(15px, 15px);
-  }
-  100% {
-    box-shadow: 30px 0 0 #f8b334;
-    margin-bottom: 10px;
-  }
-}
-@keyframes ball2 {
-  0% {
-    box-shadow: 30px 0 0 #97bf0d;
-  }
-  50% {
-    box-shadow: 0 0 0 #97bf0d;
-    margin-top: -20px;
-    -webkit-transform: translate(15px, 15px);
-    -moz-transform: translate(15px, 15px);
-  }
-  100% {
-    box-shadow: 30px 0 0 #97bf0d;
-    margin-top: 0;
-  }
-}
-
 /*====================== Navigation Styles ===================*/
 .navbar {
   padding: 0.875rem 0;
@@ -740,9 +672,10 @@ ul li {
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
   background-color: var(--secondary);
+  padding: 0.625rem 0;
 }
 .scrolled-up .navbar-brand img {
-  height: 5rem;
+  height: 3.5rem;
   width: auto;
 }
 .scrolled-up .btn-dark {

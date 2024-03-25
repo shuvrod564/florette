@@ -13,7 +13,7 @@
     --title-color: #030303; 
     --mini-text-color:#121212; 
     --white: #ffffff; 
-    --body-text-color: #000;
+    --body-text-color: #252525;
     --border-radius: .35rem;
     --br: 10px;
     --border-color: #707070;
@@ -112,6 +112,7 @@ body {
 .bg-light-blue { background-color: var(--bg-light-blue) !important; }
 .bg-primary { background-color: var(--brand) !important; } 
 .bg-dark { background-color: var(--dark) !important; }
+.bg-secondary { background-color: var(--secondary) !important; }
 .bg-gradient { background-color: rgba(215, 233, 243, 0.24) !important; }
 .z-index { z-index: 99;position: relative; } 
 .round { border-radius: var(--br); }
@@ -359,8 +360,7 @@ ul {
 @media (min-width:2000px) {
     .container-fluid { max-width: 1800px;margin-left: auto;margin-right: auto; } 
 }
-
-@import "./preloader";
+ 
 
 @import "./menu";
 

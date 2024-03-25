@@ -58,9 +58,9 @@
                             <div class="row gx-4 align-items-center justify-content-center">
                                 <div class="col-xxl-10 col-lg-9 mt-0">
                                     <div class="content__bg z-index ">
-                                        <h1 class="lead fw-normal text-white text-center">
+                                        <p class="lead fw-normal text-white text-center">
                                             EXPERIENCE A CARING RELOCATION JOURNEY WITH FLORETTE RELOCATIONS.
-                                        </h1>
+                                        </p>
                                         <p class="display-4 text-white my-3 fw-bold text-center">
                                             Your Premier Choice for Expert Moving & Packing Services Across World.
                                         </p>
@@ -194,7 +194,7 @@
     <!-- Services Wrapper Start -->
     <section class="py-5" style="background-color: #13314C;">
         <div class="container py-md-4 py-lg-5">
-            <h2 class="fs-1 fw-normal unic_wrap center text-center text-white text-uppercase mb-3">Our Solutions</h2>
+            <p class="fs-1 fw-normal unic_wrap center text-center text-white text-uppercase mb-3">Our Solutions</p>
             <p class="text-center text-white py-3 col-lg-8 col-xl-6 mx-auto">
                 At Florette Movers, We Are Dedicated To Conducting Continuous Research And Consistently Improving Our Services To The Highest Standards.
             </p>
@@ -277,9 +277,9 @@
     <!-- International Movers Malaysia Start -->
     <section class="py-5">
         <div class="container mt-lg-3">
-            <h2 class="fs-1 fw-normal text-dark text-center unic_wrap center text-uppercase spacing-x">ABOUT US</h2>
-            <p class="text-dark text-center lead fw-normal ">
-                With our client's best interests at heart, we prioritize their satisfaction and strive to build healthy and long-lasting relationships.
+            <h1 class="fs-1 fw-normal text-dark text-center unic_wrap center text-uppercase spacing-x">International Movers Malaysia</h1>
+            <p class="text-dark text-center">
+                Greetings from Florette Relocations! Are you gearing up to pack for a move? No matter if it’s just around the corner or to a far-off country destination, we’re here to ensure everything goes smoothly. At Florette Relocations, we’re more than just your average moving pack up company; consider us the supportive friends you never knew you needed for this significant transition.
             </p>
 
             <div class="row gx-4 mt-4 mt-lg-5">
@@ -322,77 +322,75 @@
     </section>
     <!-- International Movers Malaysia End -->
 
-    <!-- Service section Start -->
+    <!-- Why Choose Us? section Start -->
     <section class="py-5">
-        <div class="container mt-lg-3"> 
+        <div class="container mt-lg-3">
+            <h2 class="fs-1 text-dark unic_wrap center text-center fw-normal text-uppercase spacing-x">Why Choose Us?</h2>
+            <p class="text-dark text-center mb-5">
+                Welcome to Florette Relocations, where your journey to a new beginning is our top priority. As more than just a moving company, we position ourselves as your trusted partners through every step of your relocation and moving process. With Florette Relocations, you’ve discovered a team that truly understands the nuances and complexities of the moving industry. Whether you’re transitioning to a new home across town or embarking on an international adventure, our expertise is at your service. Why choose us? Let’s explore the reasons together.
+            </p>
+
             <div class="row g-4 gx-lg-5 pt-lg-3 align-items-center">
                 <div class="col-lg-5">
                     <div class="row g-2 g-sm-3 g-xl-4">
 
                         <figure class="col-6 col-lg-12 mb-0">
-                            <img src="assets/images/home/choose-us-one.webp" class="img-fluid" width="526" height="355" alt="Service">
+                            <img src="assets/images/home/choose-us-one.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
                         </figure>
                         <figure class="col-6 col-lg-12 mb-0">
-                            <img src="assets/images/home/choose-us-tow.webp" class="img-fluid" width="526" height="355" alt="Service">
+                            <img src="assets/images/home/choose-us-tow.webp" class="img-fluid" width="526" height="355" alt="Why Choose Us?">
                         </figure>
                     </div>
                 </div><!--//.col-->
                 <div class="col-lg-7">
-                    <h2 class="fs-1 text-dark unic_wrap fw-normal text-uppercase spacing-x">Our Featured Services</h2>
-                    <p class="text-dark fs-4 fw-light lh-1 mb-5">
-                        We offer a wide range of services designed to meet your relocation needs.
-                    </p>
-
                     <div class="d-flex flex-column gap-4 gap-lg-5">
                         <div class="d-flex align-items-start gap-4 gap-lg-5">
                             <div class="why_choose_icon_box"> 
-                                <img src="assets/images/icons/decade-moving.svg" class="img-fluid" width="96" height="96" alt="INTERNATIONAL MOVING">
+                                <img src="assets/images/icons/decade-moving.svg" class="img-fluid" width="96" height="96" alt="Why Choose Us?">
                             </div>
                             <div class="col">
-                                <h3 class="fs-4 fw-normal text-dark mb-2">
-                                    <a href="#">INTERNATIONAL MOVING</a>
-                                </h3>
-                                <p class="lead-sm">
-                                    We understand that moving your home abroad is one of the most stressful experiences in your life.
+                                <h3 class="fs-4 fw-medium text-dark mb-3">A Decade of Moving Excellence</h3>
+                                <p class="text-dark fs-15">
+                                    First off, we’ve been in the game for over ten years. That’s a decade of learning the ins, the outs, and the little details that make a big difference. We’re talking about a commitment to making your move as smooth as silk.
                                 </p> 
                             </div>
                         </div>
                         <div class="d-flex align-items-start gap-4 gap-lg-5">
                             <div class="why_choose_icon_box"> 
-                                <img src="assets/images/icons/global-network.svg" class="img-fluid" width="96" height="96" alt="CORPORATE MOVING">
+                                <img src="assets/images/icons/global-network.svg" class="img-fluid" width="96" height="96" alt="Why Choose Us?">
                             </div>
                             <div class="col">
-                                <h3 class="fs-4 fw-normal text-dark mb-2"> 
-                                    <a href="#">CORPORATE MOVING</a>
+                                <h3 class="fs-4 fw-medium text-dark mb-3">Our Global Network
+                                    <span class="lead-sm d-block text-dark">Your Passport to a Stress-Free Move</span>
                                 </h3>
-                                <p class="lead-sm">
-                                    In the International moving arena, We provide highest quality and most cost effective Corporate moving.
+                                <p class="text-dark fs-15">
+                                    Imagine having friends in every corner of the country and the globe ready to help you move. That’s us! Our global network ensures your belongings travel safely, whether you’re moving your house to the next city or across oceans.
                                 </p> 
                             </div>
                         </div>
                         <div class="d-flex align-items-start gap-4 gap-lg-5">
                             <div class="why_choose_icon_box"> 
-                                <img src="assets/images/icons/tailored-just.svg" class="img-fluid" width="96" height="96" alt="DOMESTIC MOVE">
+                                <img src="assets/images/icons/tailored-just.svg" class="img-fluid" width="96" height="96" alt="Why Choose Us?">
                             </div>
                             <div class="col">
-                                <h3 class="fs-4 fw-normal text-dark mb-2"> 
-                                    <a href="#">DOMESTIC MOVE</a>
+                                <h3 class="fs-4 fw-medium text-dark mb-3">Tailored Just for You
+                                    <span class="lead-sm d-block text-dark">Customized Moving Solutions</span> 
                                 </h3>
-                                <p class="lead-sm">
-                                    The first methods of road transport were horses, oxen or even humans carrying goods.
+                                <p class="text-dark fs-15">
+                                    We know that no two moves are the same. That’s why we listen, really listen, to what you need and tailor our services tailored to fit you perfectly. Whether it’s packing up a studio apartment or relocating an entire office, we’ve got you covered.
                                 </p> 
                             </div>
                         </div>
                         <div class="d-flex align-items-start gap-4 gap-lg-5">
                             <div class="why_choose_icon_box"> 
-                                <img src="assets/images/icons/seal-trust.svg" class="img-fluid" width="96" height="96" alt="WAREHOUSES">
+                                <img src="assets/images/icons/seal-trust.svg" class="img-fluid" width="96" height="96" alt="Why Choose Us?">
                             </div>
                             <div class="col">
-                                <h3 class="fs-4 fw-normal text-dark mb-2">
-                                    <a href="#">WAREHOUSES</a>
+                                <h3 class="fs-4 fw-medium text-dark mb-3">Seal of Trust
+                                    <span class="lead-sm d-block text-dark">Certified Excellence</span>
                                 </h3>
-                                <p class="lead-sm">
-                                    A warehouse is a commercial building for storage of goods. Warehouses are used by importers, exporters etc.
+                                <p class="text-dark fs-15">
+                                    We’re not just tooting our own horn here. Our certifications and accreditations are proof that we’re committed to providing top-notch service. It’s like a high-five from the industry saying, “Yep, these folks know their stuff.
                                 </p> 
                             </div>
                         </div>
@@ -403,7 +401,7 @@
              
         </div><!--//.container-->
     </section>
-    <!-- Service section End -->
+    <!-- Why Choose Us? section End -->
 
     <!-- Our Success Starts With Them Start -->
     <?php include_once('includes/testimonial-section.inc.php'); ?>
@@ -690,55 +688,168 @@
     </section>
     <!-- Global Supply Chain Management End -->
 
-    
-    <!--  Your Gateway To A Seamless Move Start -->
-    <section class="py-5">
-        <div class="container my-lg-4">
-            <div class="col-lg-10 mx-auto">
-                <div class="row g-4 gx-lg-5">
-                    <div class="col-lg-7 order-lg-2 position-relative ">
-                        <img 
-                            src="assets/images/home/who-we-are-01.webp"
-                            width="624" height="721" 
-                            alt="Florette Movers Malaysia"
-                            class="img-fluid"
-                        >
-                        <img 
-                            src="assets/images/home/who-we-are-02.webp"
-                            width="624" height="721" 
-                            alt="Florette Movers Malaysia"
-                            class="img-fluid"
-                        >
-                        <!-- <div class="positioned__banner__box">
-                            <img 
-                                src="assets/images/home/florette-difference.webp"
-                                width="1000" height="721" 
-                                alt="Florette Movers Malaysia"
-                                class="img-fluid"
-                            >
-                        </div> -->
-                    </div>
-                    <div class="col-lg-5 order-lg-1">
-                        <div class="mb-4">
-                            <h2 class="fs-1 text-dark fw-normal unic_wrap text-uppercase">Who We Are</h2>
-                            <p class="fs-4 fw-light lh-base ">
-                                Welcome to Florette Relocations, a trusted and successful international moving company based in Malaysia. 
-                            </p>
-                            <p>
-                                With a commitment to excellence, we offer a wide range of comprehensive services catering to global mobility, international relocation, office relocation, commercial relocation, pet moves, IT infrastructure relocation, and storage.
-                            </p>
-                            
+    <!-- Why Choose Florette Movers Malaysia Start -->
+    <section class="services__across py-5" style="background-color: #13314C;">
+        <div class="container my-lg-3">
+            <h2 class="fs-1 fw-normal unic_wrap center text-center text-white text-uppercase">Why Choose Florette Movers Malaysia</h2> 
+
+            <div class="row g-3 gx-2">
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="service__card border p-4 p-md-5 w-100" style="border-color: #ffffff5c !important;">
+                        <div class="icons_box d-flex justify-content-center ">
+                            <img src="assets/images/icons/international-flight.svg" class="img-fluid transition" width="267" height="145" alt="Personalized Moving Plans"> 
                         </div>
                         
-                    </div><!--//.col-->
-                </div><!--//.row-->
+                        <div class="service__title pt-4">
+                            <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mb-lg-5">Personalized Moving Plans</h3>
+                            <p class="fs-15 text-center text-white">
+                                Tailored to fit your unique situation.
+                            </p>
+                        </div>  
+                    </div><!--//.service-->  
+                </div><!--//.col-->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="service__card border p-4 p-md-5 w-100" style="border-color: #ffffff5c !important;">
+                        <div class="icons_box d-flex justify-content-center">
+                            <img src="assets/images/icons/domestic-moves.svg" class="img-fluid transition" width="267" height="145" alt="Comprehensive Services">  
+                        </div>
+                        
+                        <div class="service__title mt-4">
+                            <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mb-lg-5">Comprehensive Services</h3>
+                            <p class="fs-15 text-center text-white">
+                                From packing to insurance, we’ve got you covered.
+                            </p>
+                        </div>   
+                    </div><!--//.service-->  
+                </div><!--//.col-->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="service__card border p-4 p-md-5 w-100" style="border-color: #ffffff5c !important;">
+                        <div class="icons_box d-flex justify-content-center">
+                            <img src="assets/images/icons/experienced-team.svg" class="img-fluid transition" width="267" height="145" alt="Experienced Team"> 
+                        </div>
+                        
+                        <div class="service__title mt-4">
+                            <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mb-lg-5">Experienced Team</h3>
+                            <p class="fs-15 text-center text-white">
+                                Professionals dedicated to making your move smooth.
+                            </p>
+                        </div>   
+                    </div><!--//.service-->  
+                </div><!--//.col--> 
+            </div><!--//.row--> 
+        </div><!--//.container-->
+    </section>
+    <!-- Why Choose Florette Movers Malaysia End -->
 
-            </div>
+    <!--  Your Gateway To A Seamless Move Start -->
+    <section class="py-5" style="background-color: rgba(19, 49, 76, 0.06);">
+        <div class="container my-lg-4">
+            <div class="row g-4 gx-lg-5">
+                <div class="col-lg-5 order-lg-2">
+                    <img 
+                        src="assets/images/home/moving.webp"
+                        width="512" height="721" 
+                        alt="Florette Movers Malaysia"
+                        class="img-fluid"
+                    >
+                </div>
+                <div class="col-lg-7 order-lg-1">
+                    <div class="mb-4">
+                        <h2 class="fs-1 text-dark fw-normal unic_wrap text-uppercase">Florette Movers Malaysia -Your Gateway to a Seamless Move</h2>
+                        <div class="info__card p-3 p-lg-4">
+                            <h3 class="fs-5 text-dark fw-normal text-uppercase mb-3"> Large Global Network Of Movers</h3>
+                            <p class="text-dark fs-15">
+                                Embarking on an international moving company or house move journey from Malaysia? Let Florette Movers be your guide to a seamless and secure international moving company experience. With an internationally extensive network spanning over 6000 locations globally, we ensure your move is efficient, smooth, and hassle-free.
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="mb-4"> 
+                        <div class="info__card p-3 p-lg-4">
+                            <h3 class="fs-5 text-dark fw-normal text-uppercase">Expert Handling Of Valuable And Fragile Items</h3>
+                            <h4 class="lead-sm text-dark fw-normal mb-3">Can Florette Movers Malaysia Safeguard Your Treasures?</h4>
+                            <p class="text-dark fs-15">
+                                Absolutely! Your peace of mind is our priority. We employ premium packing materials, equipment and techniques to shield your valuable and fragile items during transit. Opting for the same equipment, training and right insurance coverage with a company as us adds an extra layer of security, ensuring your valuables are protected every step of the way.
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="mb-4"> 
+                        <div class="info__card p-3 p-lg-4">
+                            <h3 class="fs-5 text-dark fw-normal text-uppercase">Transparent Pricing For Your Move</h3>
+                            <h4 class="lead-sm text-dark fw-normal mb-3">What Influences the Cost of Moving Services in Malaysia?</h4>
+                            <p class="text-dark fs-15">
+                                Curious for details about the factors shaping your moving costs? From the volume of items to pack and deliver to the timing details of your request to move your house, several elements play a role. Avoid surprises by getting the details and a personalized free quote, from Florette Movers Malaysia, tailored to your specific needs and preferences.
+                            </p>
+                        </div> 
+                    </div>
+                </div><!--//.col-->
+            </div><!--//.row-->
         </div><!--//.container-->
     </section>
     <!--  Your Gateway To A Seamless Move End -->
 
-     
+    <!-- How We Work section Start -->
+    <section class="scroller py-5" style="background-color: #13314C;">
+        <div class="container py-md-4">
+            <h2 class="fs-1 fw-normal unic_wrap center text-center text-white text-uppercase">How We Work</h2>
+            <p class="text-center text-white mb-4">
+                Embarking on a move can be a monumental task, but with Florette Movers Malaysia, you’re in capable hands. Our approach is tailored, transparent, and designed to put your needs first. Here’s how we turn the daunting into the doable, step by step.
+            </p> 
+ 
+        </div><!--//.container-->
+
+        <div class="container-fluid px-sm-5 mb-4">
+            <div class="owl-carousel serviceCarousel">
+                <div class="service__card border p-4 w-100">
+                    <div class="icons_box d-flex justify-content-center ">
+                        <img src="assets/images/icons/international-flight.svg?v=1" class="img-fluid w-auto transition" width="132" height="72" alt="International Relocation Services"> 
+                    </div>
+                    <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mt-4 title">
+                        Initial Consultation: Understanding Your Unique Needs
+                    </h3> 
+                    <p class="text-center fw-normal text-white small scroll">
+                        Your journey begins with a personal consultation. Why? Because every move is as unique as you are. We dive deep to understand your specific needs, preferences, and concerns. This initial chat sets the stage for a move that feels like it's designed just for you.
+                    </p>  
+                </div><!--//.service-->  
+                <div class="service__card border p-4 w-100">
+                    <div class="icons_box d-flex justify-content-center ">
+                        <img src="assets/images/icons/domestic-moves.svg?v=2" class="img-fluid w-auto transition" width="286" height="72" alt="International Relocation Services"> 
+                    </div>
+                    <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mt-4 title">
+                        Crafting Your Custom Plan
+                    </h3> 
+                    <h4 class="text-white lead-sm text-center">A Blueprint for Success</h4> 
+                    <p class="text-center fw-normal text-white small scroll">
+                        Next, we roll up our sleeves and get to work on your custom moving plan. This isn't just about logistics and timelines (though we've got those down to an art); it's about crafting a plan that aligns with your life, your schedule, and your expectations. From packing to paperwork, we've got every detail covered.
+                    </p>  
+                </div><!--//.service-->   
+                <div class="service__card border p-4 w-100">
+                    <div class="icons_box d-flex justify-content-center ">
+                        <img src="assets/images/icons/warehousing-solutions-pro.svg?v=2" class="img-fluid w-auto transition" width="197" height="72" alt="Warehousing Solutions"> 
+                    </div>
+                    <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mt-4 title">
+                        Execution: Where Plans Meet Precision
+                    </h3> 
+                    <h4 class="text-white lead-sm text-center">Moving Day and Beyond</h4>
+                    <p class="text-center fw-normal text-white small scroll">
+                        With the plan in place, it's time for action. Our team of skilled international movers and packers takes the lead, handling your belongings with the utmost care and efficiency. We're talking precision packing, safe transportation, and meticulous attention to detail. And because we know the importance of staying connected, we keep you updated every step of the way.
+                    </p>   
+                </div><!--//.service-->   
+                <div class="service__card border p-4 w-100">
+                    <div class="icons_box d-flex justify-content-center ">
+                        <img src="assets/images/icons/pet-relocation.svg?v=1" class="img-fluid w-auto transition" width="288" height="72" alt="Pet Relocation Services"> 
+                    </div>
+                    <h3 class="fs-5 fw-medium text-center text-white text-uppercase mb-3 mt-4 title">
+                        Aftercare: Supporting You Post-Move 
+                    </h3> 
+                    <h4 class="text-white lead-sm text-center">Seamless Transition into Your New Space</h4>
+                    <p class="text-center fw-normal text-white small scroll">
+                        Our commitment doesn't end when the last box is unpacked. Our aftercare support ensures you settle into your new space with ease. Whether it's additional services you need or just some friendly advice, we're here for you. Because at Florette Movers Malaysia, your move is more than a task on our checklist—it's the start of your next chapter.
+                    </p>   
+                </div><!--//.service-->   
+            </div><!--//.carousel--> 
+        </div><!--.//container__fluid-->
+    </section>
+    <!-- How We Work section End -->
 
     <!-- Latest News section Start -->
     <section class="py-5">
@@ -957,23 +1068,6 @@
     </section>  
     <!-- FAQ section End -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
  
      

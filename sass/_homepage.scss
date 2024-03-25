@@ -92,7 +92,7 @@
  
 .unic_wrap {
     position: relative;  
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     &::after{
         content: '';
@@ -102,7 +102,7 @@
         height: 3px;
         background-color: #D7121A;
         border-radius: 2.25rem;
-        bottom: -1rem;
+        bottom: -0.75rem;
         left: 0;
     }
 
@@ -201,6 +201,13 @@
     }
 }
 
+
+@media (min-width:992px) {
+    .positioned__banner__box {
+        position: absolute;top: 0;left: 0%;width: 50vw;height: auto;
+    }
+
+}
 
 
 

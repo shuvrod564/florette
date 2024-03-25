@@ -1,10 +1,3 @@
-    
-    <!-- PRELOADER --> 
-    <div id="preloader" class="position-fixed top-0 start-0 w-100 h-100 bg-white">  
-        <div class="w-100 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center"> 
-            <div class="loader"></div>      
-        </div>
-    </div>
  
     <!-- navigation start -->
     
@@ -17,17 +10,42 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">   
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
-                        <a class="nav-link py-3" href="#">
+                        <a class="nav-link py-2" href="<?php echo $base_url;?>">
                            Home
                         </a>  
-                    </li>
-                    <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
-                        <a class="nav-link py-3" href="#">
+                    </li> 
+                    <li class="nav-item ms-3 ms-lg-3 ms-xxl-4 dropdown">    
+                        <a class="nav-link py-2 dropdown-toggle" href="#" type="button" id="aboutDrop" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             About Us 
                         </a>  
-                    </li>
+                        <div class="dropdown-menu p-2 bg-white rounded-3" aria-labelledby="aboutDrop" style="min-width:10rem"> 
+                            <ul class="d-flex flex-column gap-1">         
+                                <li>
+                                    <a href="<?php echo $base_url;?>who-we-are.php" class="dropdown-item rounded-1">Who We Are</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Clients</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Testimonials</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Career</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">Enquiry</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item rounded-1">FAQs</a>
+                                </li> 
+                            </ul>
+                        </div>  
+                    </li>   
                     <li class="nav-item ms-3 ms-lg-3 ms-xxl-4 dropdown">    
-                        <a class="nav-link py-3 dropdown-toggle" href="#" type="button" id="serviceDrop" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link py-2 dropdown-toggle" href="#" type="button" id="serviceDrop" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>  
                         <div class="dropdown-menu p-2 bg-white rounded-3" aria-labelledby="serviceDrop"> 
@@ -63,17 +81,17 @@
                         </div>  
                     </li>   
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
-                        <a class="nav-link py-3" href="programs.php">
+                        <a class="nav-link py-2" href="programs.php">
                             Gallery
                         </a>  
                     </li>
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
-                        <a class="nav-link py-3" href="#">
+                        <a class="nav-link py-2" href="#">
                             Blog/News
                         </a>  
                     </li> 
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4">
-                        <a class="nav-link py-3" href="#">Contact Us</a>
+                        <a class="nav-link py-2" href="#">Contact Us</a>
                     </li>
                 </ul> 
             </div>   
