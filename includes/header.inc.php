@@ -27,13 +27,13 @@
                                     <a href="<?php echo $base_url;?>our-team.php" class="dropdown-item rounded-1">Our Team</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Clients</a>
+                                    <a href="<?php echo $base_url;?>clients.php" class="dropdown-item rounded-1">Clients</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Testimonials</a>
+                                    <a href="<?php echo $base_url;?>testimonials.php" class="dropdown-item rounded-1">Testimonials</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Career</a>
+                                    <a href="<?php echo $base_url;?>career.php" class="dropdown-item rounded-1">Career</a>
                                 </li>
                                 <li>
                                     <a href="#" class="dropdown-item rounded-1">Enquiry</a>

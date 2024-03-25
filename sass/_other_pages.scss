@@ -141,53 +141,14 @@ textarea.form-control { height: auto; }
     }
 }
 
-// Who We Are Start
-
-.florette__movers{
-    .unic_wrap {
-        position: relative;  
-        margin-bottom: 2rem;
-    
-        &::after{
-            content: '';
-            position: absolute;
-            display: block;
-            width: 5.5rem;
-            height: 5px;
-            background-color: #D7121A;
-            border-radius: 2.25rem;
-            bottom: -0.75rem;
-            left: 19.437rem;
-        }
-    
-        &.center::after {
-            left: 50%;transform: translateX(-50%);
-        }
-    }
-}
-// Who We Are End
+ 
 
 // our team start
 .our__team{
-    .unic_wrap {
-        position: relative;  
-        margin-bottom: 2rem;
-    
-        &::after{
-            content: '';
-            position: absolute;
-            display: block;
-            width: 10.5rem;
-            height: 3px;
-            background-color: #D7121A;
-            border-radius: 2.25rem;
-            bottom: -0.75rem;
-            left: 35.687rem;
-        }
-    
-        &.center::after {
-            left: 50%;transform: translateX(-50%);
-        }
+     
+    .img__wrap{
+        width: 126px !important;
+        height: 126px;
     }
 }
 // our team End
