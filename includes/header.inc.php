@@ -24,7 +24,7 @@
                                     <a href="<?php echo $base_url;?>who-we-are.php" class="dropdown-item rounded-1">Who We Are</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Our Team</a>
+                                    <a href="<?php echo $base_url;?>our-team.php" class="dropdown-item rounded-1">Our Team</a>
                                 </li>
                                 <li>
                                     <a href="#" class="dropdown-item rounded-1">Clients</a>

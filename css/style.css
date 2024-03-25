@@ -404,6 +404,46 @@ textarea.form-control {
   min-height: 3rem !important;
 }
 
+.florette__movers .unic_wrap {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.florette__movers .unic_wrap::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5.5rem;
+  height: 5px;
+  background-color: #D7121A;
+  border-radius: 2.25rem;
+  bottom: -0.75rem;
+  left: 19.437rem;
+}
+.florette__movers .unic_wrap.center::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our__team .unic_wrap {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.our__team .unic_wrap::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10.5rem;
+  height: 3px;
+  background-color: #D7121A;
+  border-radius: 2.25rem;
+  bottom: -0.75rem;
+  left: 35.687rem;
+}
+.our__team .unic_wrap.center::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media (min-width: 1200px) and (max-width: 1300px) {
   .course__card .caption .btn-primary .icon {
     display: none;
