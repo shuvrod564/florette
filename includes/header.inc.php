@@ -36,10 +36,10 @@
                                     <a href="<?php echo $base_url;?>career.php" class="dropdown-item rounded-1">Career</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Enquiry</a>
+                                    <a href="<?php echo $base_url;?>enquiry.php" class="dropdown-item rounded-1">Enquiry</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">FAQs</a>
+                                    <a href="<?php echo $base_url;?>faqs.php" class="dropdown-item rounded-1">FAQs</a>
                                 </li> 
                             </ul>
                         </div>  
