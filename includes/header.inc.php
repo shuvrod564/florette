@@ -91,7 +91,7 @@
                         </a>  
                     </li> 
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4">
-                        <a class="nav-link py-2" href="#">Contact Us</a>
+                        <a class="nav-link py-2" href="<?php echo $base_url;?>contact.php">Contact Us</a>
                     </li>
                 </ul> 
             </div>   

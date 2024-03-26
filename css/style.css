@@ -94,12 +94,14 @@
   left: 50%;
   transform: translateX(-50%);
 }
-.unic_wrap.right::after {
-  right: 0;
-  left: auto;
-  width: 4rem;
-}
 
+@media (min-width: 992px) {
+  .unic_wrap.lg_right::after {
+    right: 0%;
+    left: auto;
+    width: 4rem;
+  }
+}
 @media (max-width: 574px) {
   .unic_wrap.right::after {
     left: 0;
@@ -288,136 +290,100 @@
     padding-bottom: 4rem;
   }
 }
-.caption__card {
-  background-color: #F0F0F0;
-}
-
-.certificates__wrap .services__card {
-  background-color: #FCFAFA;
-  border: 1px solid #FBF6F2;
-  transition: all 0.4s ease-in-out;
-}
-.certificates__wrap .services__card .title {
-  color: var(--brand);
-  transition: all 0.4s ease-in-out;
-}
-.certificates__wrap .services__card:hover {
-  background-color: var(--brand);
-  color: var(--white);
-}
-.certificates__wrap .services__card:hover .title {
-  color: var(--white);
-}
-
-.program__card {
-  border: 1px solid rgba(112, 112, 112, 0.341);
-  border-radius: 10px;
-}
-.program__card .footer__caption .left__caption {
-  width: calc(100% - 9rem);
-}
-.program__card .footer__caption .action__box {
-  width: 9rem;
-  text-align: right;
-}
-
-@media (max-width: 1400px) {
-  .program__card .footer__caption .left__caption {
-    width: calc(100% - 8rem);
-  }
-  .program__card .footer__caption .action__box {
-    width: 8rem;
-  }
-}
-.gallery__wrapper .md__thumb {
-  height: 320px;
-}
-.gallery__wrapper .lg__thumb {
-  height: 420px;
-}
-.gallery__wrapper .sm__thumb {
-  height: 220px;
-}
-.gallery__wrapper .galleryItem {
-  position: relative;
-}
-.gallery__wrapper .galleryItem::after {
-  content: "";
-  width: calc(100% - 1rem);
-  height: calc(100% - 1rem);
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  background: var(--eye) no-repeat center center/1.5rem;
-  background-color: rgba(0, 0, 0, 0.7254901961);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.gallery__wrapper .galleryItem:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-@media (max-width: 1200px) {
-  .gallery__wrapper .md__thumb {
-    height: 255px;
-  }
-  .gallery__wrapper .lg__thumb {
-    height: 360px;
-  }
-  .gallery__wrapper .sm__thumb {
-    height: 150px;
-  }
-}
-@media (max-width: 991px) {
-  .gallery__wrapper .md__thumb {
-    height: 200px;
-  }
-  .gallery__wrapper .lg__thumb {
-    height: 270px;
-  }
-  .gallery__wrapper .sm__thumb {
-    height: 130px;
-  }
-}
-@media (max-width: 767px) {
-  .gallery__wrapper .cols a {
-    width: calc(50% - 4px);
-  }
-  .gallery__wrapper .md__thumb, .gallery__wrapper .lg__thumb, .gallery__wrapper .sm__thumb {
-    height: 180px;
-  }
-}
-@media (max-width: 767px) {
-  .gallery__wrapper .md__thumb, .gallery__wrapper .lg__thumb, .gallery__wrapper .sm__thumb {
-    height: 150px;
-  }
-}
-.appointment__wrapper {
-  background-color: rgba(189, 117, 34, 0.1607843137);
-  border-radius: 1.25rem;
-}
-
-.form-control {
-  height: 3.25rem;
-  border-color: #E0E0E0;
-}
-.form-control:hover, .form-control:focus {
-  border-color: var(--brand);
-}
-
-textarea.form-control {
-  height: auto;
-}
-
-.card__hight .title {
-  min-height: 3rem !important;
-}
-
 .our__team .img__wrap {
   width: 126px !important;
   height: 126px;
+}
+
+.img__wraper {
+  width: 50vw;
+  min-height: 28rem;
+}
+
+@media (max-width: 575px) {
+  .img__wraper {
+    width: 100vw;
+  }
+  .patient__login {
+    width: 41rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .img__wraper {
+    width: 91vw !important;
+  }
+  .patient__login {
+    width: 48rem !important;
+  }
+}
+.form__gradient {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, var(--secondary) 40%, #FFFFFF 70%);
+  opacity: 0.6;
+}
+
+.patient__login {
+  width: 50rem;
+  z-index: 999;
+}
+.patient__login .form-control {
+  height: 4.25rem;
+  border-radius: 0%;
+  font-weight: 500;
+  padding-left: 1.425rem;
+  background-color: #FFFFFF;
+}
+.patient__login .form-control::-moz-placeholder {
+  font-size: 1.25rem;
+  color: inherit;
+  font-family: inherit;
+  opacity: 0.6;
+}
+.patient__login .form-control::placeholder {
+  font-size: 1.25rem;
+  color: inherit;
+  font-family: inherit;
+  opacity: 0.6;
+}
+.patient__login .form-select {
+  width: 100%;
+  height: 4.25rem;
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: rgba(19, 49, 76, 0.5);
+  background-color: #fff;
+  background-image: url("../assets/images/icons/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+}
+
+.faq__wrapper .accordion-body {
+  padding-top: 1.5rem !important;
+  background-color: #fff !important;
+}
+.faq__wrapper .accordion-flush .accordion-item {
+  border: none !important;
+}
+.faq__wrapper .accordion-button {
+  background-color: var(--secondary) !important;
+  box-shadow: none;
+  color: #fff !important;
+}
+.faq__wrapper .accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: var(--secondary) !important;
+  box-shadow: none;
+}
+.faq__wrapper .accordion-button:not(.collapsed)::after {
+  background-image: var(--minus-circle-icon) !important;
+}
+.faq__wrapper .accordion-button::after {
+  background-image: var(--plus-circle-icon) !important;
+}
+.faq__wrapper .accordion-item {
+  margin-bottom: 0.15rem !important;
+  border-bottom: 2px solid #fff !important;
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {

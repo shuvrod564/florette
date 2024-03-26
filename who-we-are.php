@@ -42,14 +42,15 @@
         <!-- Header Wrapper End -->
 
         <!-- Florette Movers start -->
-        <section class="florette__movers py-5">
+        <section class="pt-5 pb-4 pb-lg-5">
             <div class="container">
                 <div class="row g- gx-lg-5 align-items-center">
-                    <div class="col-lg-4 col-xxl-3 col-md-6 text-lg-end">
-                        <p class="lead-sm text-13 unic_wrap right fw-medium text-uppercase">Florette Movers</p>  
+                    <div class="col-lg-4 col-xxl-3 text-lg-end">
+                        <p class="lead-sm text-13 fw-medium text-uppercase unic_wrap lg_right">Florette Movers</p>
+                       
                         <h2 class="display-5 text-13 fw-light text-uppercase">Our Story </h2>
                     </div><!--//.col-->
-                    <div class="col-lg-8 col-xxl-9 col-md-6">
+                    <div class="col-lg-8 col-xxl-9">
                         <p class="lead-sm ">
                             At Florette Relocation, our operational office in the heart of Kuala Lumpur serves as the head office for our business operations in Malaysia. As a distinguished leader in the industry, we are committed to creating value through our quality services and personalized care. Our team is driven by a passion for delivering innovative and value-added solutions, setting us apart from the competition.
                         </p> 
