@@ -21,16 +21,15 @@
     <?php $folder='root'; include_once('includes/header.inc.php'); ?> 
 
     <main>
-
-        
+ 
         <!-- Header Wrapper Start -->
         <header class="page__header position-relative ">
             <img 
-                src="assets/images/testimonials-2/testimonials-bg.webp" 
+                src="assets/images/testimonials/testimonials-bg.webp" 
                 srcset="
-                    assets/images/testimonials-2/testimonials-bg-sm.webp 576w,
-                    assets/images/testimonials-2/testimonials-bg-md.webp 1000w,
-                    assets/images/testimonials-2/testimonials-bg.webp 1200w 
+                    assets/images/testimonials/testimonials-bg-sm.webp 576w,
+                    assets/images/testimonials/testimonials-bg-md.webp 1000w,
+                    assets/images/testimonials/testimonials-bg.webp 1200w 
                 "
                 alt="<?php echo $site_name;?>" width="1903" height="448"
                 class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
@@ -50,7 +49,7 @@
     </main>
     
     <!-- Our Success Starts With Them Start -->
-    <?php include_once('includes/testimonial-section.inc.php'); ?>
+    <?php $bg="white"; include_once('includes/testimonial-section.inc.php'); ?>
     <!-- Our Success Starts With Them End -->
 
 

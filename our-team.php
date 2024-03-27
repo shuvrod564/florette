@@ -43,8 +43,8 @@
 
         <!-- Our Team Members start -->
         <section class="our__team py-5">
-            <div class="container mt-lg-3">
-                <h2 class="fs-1 text-13 fw-light text-center text-uppercase unic_wrap center pt-xl-4">Our Team Members</h2>
+            <div class="container py-lg-4">
+                <h2 class="fs-1 text-13 fw-light text-center text-uppercase unic_wrap center">Our Team Members</h2>
                 <p class="fs-4 text-dark fw-light text-center mb-3 mb-xl-5">
                     Meet our exceptionally talented team. 
                 </p>
@@ -52,13 +52,13 @@
                 <div class="owl-carousel ourteamSlider">
                     <div class="team_card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
+                            <img src="assets/images/our-team/team.webp" class="img-fluid team__thumbnail rounded-circle" width="309" height="326" alt="Our Team Members"> 
                         </div>
                         <p class="lead-sm text-center mt-4"> 
 						    I coordinate the activities of a team, department & organization.
                         </p>
                         <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
+                            <a href="mailto:operations@floretterelo.com" class="btn btn-primary rounded-pill height sm py-2 px-5 text-uppercase">Contact Me</a>
                         </div>
                         <p class="lead-lg text-25 fw-medium text-center mb-0">
                             Manager
@@ -68,13 +68,13 @@
 
                     <div class="team_card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
+                            <img src="assets/images/our-team/team.webp" class="img-fluid team__thumbnail rounded-circle" width="309" height="326" alt="Our Team Members"> 
                         </div>
                         <p class="lead-sm text-center mt-4">  
-						I coordinate enquiries & arranage meetings. How can I help you.
+						    I coordinate enquiries & arranage meetings. How can I help you.
                         </p>
                         <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
+                            <a href="mailto:sales@floretterelo.com" class="btn btn-primary rounded-pill height sm py-2 px-5 text-uppercase">Contact Me</a>
                         </div>
                         <p class="lead-lg text-25 fw-medium text-center mb-0">
                             Sales Coordinator
@@ -84,13 +84,13 @@
 
                     <div class="team_card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
+                            <img src="assets/images/our-team/team.webp" class="img-fluid team__thumbnail rounded-circle" width="309" height="326" alt="Our Team Members"> 
                         </div>
                         <p class="lead-sm text-center mt-4">   
                             I make sure everything work smoothly, feel free to contact.
                         </p>
                         <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
+                            <a href="mailto:operations@floretterelo.com" class="btn btn-primary rounded-pill height sm py-2 px-5 text-uppercase">Contact Me</a>
                         </div>
                         <p class="lead-lg text-25 fw-medium text-center mb-0">
                             Office Coordinator
@@ -100,145 +100,20 @@
 
                     <div class="team_card">
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
+                            <img src="assets/images/our-team/team.webp" class="img-fluid team__thumbnail rounded-circle" width="309" height="326" alt="Our Team Members"> 
                         </div>
                         <p class="lead-sm text-center mt-4">    
 						I take care of your goods reach their destination safely.
                         </p>
                         <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
+                            <a href="mailto:operations@floretterelo.com" class="btn btn-primary rounded-pill height sm py-2 px-5 text-uppercase">Contact Me</a>
                         </div>
                         <p class="lead-lg text-25 fw-medium text-center mb-0">
                             Supervisor
                         </p>
                         <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Aravind</span>
                     </div> 
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4"> 
-						    I coordinate the activities of a team, department & organization.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Manager
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center d-block">JENEFIR WHITE</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">  
-						I coordinate enquiries & arranage meetings. How can I help you.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Sales Coordinator
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Liza Chan</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">   
-                            I make sure everything work smoothly, feel free to contact.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Office Coordinator
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Abdulla Ahmad</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">    
-						I take care of your goods reach their destination safely.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Supervisor
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Aravind</span>
-                    </div> 
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4"> 
-						    I coordinate the activities of a team, department & organization.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Manager
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center d-block">JENEFIR WHITE</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">  
-						I coordinate enquiries & arranage meetings. How can I help you.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Sales Coordinator
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Liza Chan</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">   
-                            I make sure everything work smoothly, feel free to contact.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Office Coordinator
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Abdulla Ahmad</span>
-                    </div> 
-
-                    <div class="team_card">
-                        <div class="d-flex justify-content-center">
-                            <img src="assets/images/our-team/team.webp" class="img-fluid img__wrap rounded-circle" width="309" height="326" alt="Our Team Members"> 
-                        </div>
-                        <p class="lead-sm text-center mt-4">    
-						I take care of your goods reach their destination safely.
-                        </p>
-                        <div class="my-4 mt-xl-4 text-center">
-                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Contact Me</a>
-                        </div>
-                        <p class="lead-lg text-25 fw-medium text-center mb-0">
-                            Supervisor
-                        </p>
-                        <span class="fs-3 fw-light text-13 text-center text-uppercase d-block">Aravind</span>
-                    </div> 
+                     
                 </div><!--//.owl-carousel-->
             </div><!--//.container-->
         </section>

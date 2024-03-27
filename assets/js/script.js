@@ -170,7 +170,7 @@ function topFunction() {
     responsiveClass: true,
     autoplayTimeout: 10000,
     autoplaySpeed: 3000, 
-    loop: true,
+    loop: false,
     margin: 20,
     items: 4,
     nav: false, 

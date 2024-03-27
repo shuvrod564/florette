@@ -24,11 +24,11 @@
         <!-- Header Wrapper Start -->
         <header class="page__header position-relative ">
             <img 
-                src="assets/images/our-team/ourteam-florette-bg.webp" 
+                src="assets/images/clients/hero-bg.webp" 
                 srcset="
-                    assets/images/our-team/ourteam-florette-bg-sm.webp 576w,
-                    assets/images/our-team/ourteam-florette-bg-md.webp 1000w,
-                    assets/images/our-team/ourteam-florette-bg.webp 1200w 
+                    assets/images/clients/hero-bg-sm.webp 576w,
+                    assets/images/clients/hero-bg-md.webp 1000w,
+                    assets/images/clients/hero-bg.webp 1200w 
                 "
                 alt="<?php echo $site_name;?>" width="1903" height="448"
                 class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
@@ -43,8 +43,8 @@
 
         <!-- Our Clients start -->
         <section class="our__team py-5">
-            <div class="container mt-lg-3">
-                <h2 class="fs-1 text-25 fw-light text-center text-uppercase unic_wrap center pt-xl-4">Our Clients</h2>
+            <div class="container py-lg-4">
+                <h2 class="fs-1 text-25 fw-light text-center text-uppercase unic_wrap center">Our Clients</h2>
                 <p class="fs-4 text-dark fw-light text-center mb-3 mb-xl-5">
                     Our company partnerships
                 </p>

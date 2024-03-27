@@ -22,7 +22,7 @@
     </style>
     <style>
          :root {
-            --plus-circle-icon: url('<?php echo $base_url;?>assets/images/icons/plus.svg');
+            --plus-circle-icon: url('<?php echo $base_url;?>assets/images/icons/plus.svg?v=1');
             --minus-circle-icon: url('<?php echo $base_url;?>assets/images/icons/minus.svg');
         }
     </style>

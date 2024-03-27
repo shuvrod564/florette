@@ -50,6 +50,7 @@
                                 assets/images/home/truck-md.webp 1000w,
                                 assets/images/home/truck.webp 1200w 
                             "
+                            sizes="(max-width:575px) 500px, (max-width:991px) 1000px"
                             alt="<?php echo $site_name;?>"
                             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
                         />
@@ -80,6 +81,7 @@
                                 assets/images/home/Kuala-Lumpur-md.webp 1000w,
                                 assets/images/home/Kuala-Lumpur.webp 1200w 
                             "
+                            sizes="(max-width:575px) 500px, (max-width:991px) 1000px"
                             alt="<?php echo $site_name;?>"
                             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
                         />
@@ -109,6 +111,7 @@
                                 assets/images/home/banner-md.webp 1000w,
                                 assets/images/home/banner.webp 1200w 
                             "
+                            sizes="(max-width:575px) 500px, (max-width:991px) 1000px"
                             alt="<?php echo $site_name;?>"
                             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
                         />
@@ -267,7 +270,7 @@
             </div><!--//.row-->
             <div class="text-center mt-4 mt-lg-5">
                 <button class="btn">
-                    <a class="btn btn-outline-white height rounded-pill fw-bold" href="#">GET DETAILED QUOTE</a>
+                    <a class="btn btn-outline-white height rounded-pill fw-bold" href="<?php echo $base_url;?>enquiry.php" aria-label="GET DETAILED QUOTE">GET DETAILED QUOTE</a>
                 </button>
             </div>
         </div>
@@ -748,12 +751,12 @@
             <div class="row gx-4 gy-4">
                 <div class="col-lg-3 col-6">
                     <div class="bg-white overflow-hidden">
-                        <a href="#" class="d-block thumbnail">
+                        <a href="blog/how-to-convert-india-license-to-malayasia.php" class="d-block thumbnail">
                             <img src="assets/images/blog/blog-1.webp" class="img-fluid w-100" width="362" height="100" alt="Driving Licence">
                         </a>
                         <div class="bg-white pt-4">
                             <h3 class="fw-medium fs-4">
-                                <a href="#">
+                                <a href="blog/how-to-convert-india-license-to-malayasia.php">
                                     How to convert India license to Malayasia ?
                                 </a>
                             </h3>
@@ -762,12 +765,12 @@
                 </div><!--//.col-->
                 <div class="col-lg-3 col-6">
                     <div class="bg-white overflow-hidden">
-                        <a href="#" class="d-block thumbnail">
+                        <a href="blog/customs-regulations-in-india.php" class="d-block thumbnail">
                             <img src="assets/images/blog/blog-2.webp" class="img-fluid w-100" width="362" height="100" alt="Customs regulations in India ">
                         </a>
                         <div class="bg-white pt-4">
                             <h3 class="fw-medium fs-4">
-                                <a href="#">
+                                <a href="blog/customs-regulations-in-india.php">
                                     Customs regulations in India 
                                 </a>
                             </h3>
@@ -776,12 +779,12 @@
                 </div><!--//.col-->
                 <div class="col-lg-3 col-6">
                     <div class="bg-white overflow-hidden">
-                        <a href="#" class="d-block thumbnail">
+                        <a href="blog/amsterdam-harbour-support-contract.php" class="d-block thumbnail">
                             <img src="assets/images/blog/blog-3.webp" class="img-fluid w-100" width="362" height="100" alt="Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait ">
                         </a>
                         <div class="bg-white pt-4">
                             <h3 class="fw-medium fs-4">
-                                <a href="#">
+                                <a href="blog/amsterdam-harbour-support-contract.php">
                                     Malaysia, Indonesia, Singapore agree to strengthen coordination in Malacca Strait 
                                 </a>
                             </h3>
@@ -790,12 +793,12 @@
                 </div><!--//.col-->
                 <div class="col-lg-3 col-6">
                     <div class="bg-white overflow-hidden">
-                        <a href="#" class="d-block thumbnail">
+                        <a href="blog/immigration-update-malaysia.php" class="d-block thumbnail">
                             <img src="assets/images/blog/blog-4.webp" class="img-fluid w-100" width="362" height="100" alt="Immigration Update – Malaysia ">
                         </a>
                         <div class="bg-white pt-4">
                             <h3 class="fw-medium fs-4">
-                                <a href="#">
+                                <a href="blog/immigration-update-malaysia.php">
                                     Immigration Update – Malaysia 
                                 </a>
                             </h3>
@@ -805,16 +808,12 @@
                  
             </div><!--//.row-->
             <div class="text-center mt-5">
-                <a href="#" type="button" class="btn btn-outline-primary height px-5 rounded-pill">VIEW ALL</a> 
+                <a href="./blog/" type="button" class="btn btn-outline-primary height px-5 rounded-pill">VIEW ALL</a> 
             </div> 
         </div><!--//.container-->
     </section>
     <!-- Latest News section End -->
-
-
-
-
-
+ 
 
     <!-- FAQ section Start -->
     <section class="py-4 py-md-5">

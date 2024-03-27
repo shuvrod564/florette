@@ -126,6 +126,12 @@
   bottom: -0.25rem;
   right: 0rem;
 }
+.testimonial__wrapper.not__white__theme .text-white {
+  color: var(--dark) !important;
+}
+.testimonial__wrapper.not__white__theme .carousel-control-next-icon, .testimonial__wrapper.not__white__theme .carousel-control-prev-icon {
+  filter: contrast(1000%) invert(100%) sepia(100%) saturate(10000%) hue-rotate(90deg);
+}
 
 .service__card .icons_box img {
   height: 4.5rem;
@@ -319,16 +325,19 @@
   max-width: 400px;
 }
 
-.our__team .img__wrap {
+.team__thumbnail {
   width: 126px !important;
   height: 126px;
 }
 
-.img__wraper {
-  width: 50vw;
-  min-height: 28rem;
+@media (min-width: 992px) {
+  .img__wraper {
+    width: 50vw;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
 }
-
 @media (max-width: 575px) {
   .img__wraper {
     width: 100vw;
@@ -406,9 +415,13 @@
 }
 .faq__wrapper .accordion-button:not(.collapsed)::after {
   background-image: var(--minus-circle-icon) !important;
+  background-size: 1.125rem;
 }
 .faq__wrapper .accordion-button::after {
   background-image: var(--plus-circle-icon) !important;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: 1.5rem;
 }
 .faq__wrapper .accordion-item {
   margin-bottom: 0.15rem !important;

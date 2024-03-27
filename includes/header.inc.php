@@ -81,7 +81,7 @@
                         </div>  
                     </li>   
                     <li class="nav-item ms-2 ms-lg-3 ms-xxl-4"> 
-                        <a class="nav-link py-2" href="programs.php">
+                        <a class="nav-link py-2" href="<?php echo $base_url;?>gallery.php">
                             Gallery
                         </a>  
                     </li>
@@ -117,8 +117,35 @@
                 <button onclick="closeSideMenu()" class="btn btn-close rounded-0 opacity-1 p-1 bg-danger" type="button" aria-label="Menu Close Btn"></button>
             </div>
             <ul class="links__list">
-                <li><a href="<?php echo $base_url;?>">Home</a></li>
-                <li><a href="<?php echo $base_url;?>about.php">About Us</a></li> 
+                <li><a href="<?php echo $base_url;?>">Home</a></li>  
+                <li>
+                    <a class="collapse__btn collapsed" data-bs-toggle="collapse" href="#collapse001" role="button" aria-expanded="false" aria-controls="collapse001">
+                        About Us
+                    </a>  
+                    <ul class="collapse" id="collapse001">       
+                        <li>
+                            <a href="<?php echo $base_url;?>who-we-are.php">Who We Are</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>our-team.php">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>clients.php">Clients</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>testimonials.php">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>career.php">Career</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>enquiry.php">Enquiry</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $base_url;?>faqs.php">FAQs</a>
+                        </li>  
+                    </ul>
+                </li>
                 <li>
                     <a class="collapse__btn collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
                         Services
@@ -154,13 +181,18 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="<?php echo $base_url;?>programs.php">
-                       Programms
-                    </a> 
+                <li> 
+                    <a href="<?php echo $base_url;?>gallery.php">
+                        Gallery
+                    </a>  
+                </li>
+                <li> 
+                    <a href="<?php echo $base_url;?>blog/">
+                        Blog/News
+                    </a>  
                 </li> 
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="<?php echo $base_url;?>contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>

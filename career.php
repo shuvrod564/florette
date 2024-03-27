@@ -54,41 +54,38 @@
                         </div>
                     </div><!--//.col-->
                     <div class="col-lg-6">
-                        <div class="img__wraper position-relative">
-                            <img src="assets/images/career/we-are-hiring.webp" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" width="1200" height="692" alt="We are hiring">
-                            <div class="position-absolute top-0 start-0 w-100 h-100"></div>
-
-
-                            <div class="position-relative py-4 py-lg-5">
-                                <div class="patient__login position-relative mx-3">
-                                    <h1 class="display-4 fw-semibold text-13 text-uppercase my-4">Build a Bright Future</h1> 
-                                    <p class="lead-lg fw-medium text-white mb-4">Join Our Team Today!</p>
+                        <div class="position-relative"> 
+                            <div class="img__wraper h-100 ">
+                                <img src="assets/images/career/we-are-hiring.webp" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" width="1200" height="692" alt="We are hiring">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 opacity-75 " style="background-image: linear-gradient(180deg, var( --secondary ) 40%, #FFFFFF 70%);"></div> 
+                            </div>
+                            <div class="position-relative ps-4 pe-4 pe-lg-0 py-4 py-lg-5 ps-lg-5">
+                                <h1 class="display-6 fw-semibold text-13 text-uppercase my-4">Build a Bright Future</h1> 
+                                <p class="lead-lg fw-medium text-white mb-4">Join Our Team Today!</p>
+                                
+                                <form action="#" class="row g-4"> 
+                                    <div class="col-lg-12"> 
+                                        <input type="text" name="name" class="form-control" placeholder="Name *" required>
+                                        <div class="small text-danger error" id="name_error"></div>
+                                    </div>
+                                    <div class="col-lg-12"> 
+                                        <input type="phone" name="Phone Number" class="form-control" placeholder="Phone Number *" >
+                                        <div class="small text-danger error" id="phone_error"></div>
+                                    </div>
+                                    <div class="col-lg-12"> 
+                                        <input type="email" name="email" class="form-control" placeholder="Email *" required>
+                                        <div class="small text-danger error" id="email_error"></div>
+                                    </div>
+                                    <div class="col-lg-12"> 
+                                        <input type="file" name="fill" id="fill" class="lead" required="required" aria-required="true">
+                                        <div class="small text-danger error" id="fill_error"></div>
+                                    </div>
                                     
-                                    <form action="#" class="row g-4"> 
-                                        <div class="col-lg-12"> 
-                                            <input type="text" name="name" class="form-control fs-15 fw-light" placeholder="Name *" required>
-                                            <div class="small text-danger error" id="name_error"></div>
-                                        </div>
-                                        <div class="col-lg-12"> 
-                                            <input type="phone" name="Phone Number" class="form-control fs-15 fw-light" placeholder="Phone Number *" >
-                                            <div class="small text-danger error" id="phone_error"></div>
-                                        </div>
-                                        <div class="col-lg-12"> 
-                                            <input type="email" name="email" class="form-control fs-15 fw-light" placeholder="Email *" required>
-                                            <div class="small text-danger error" id="email_error"></div>
-                                        </div>
-                                        <div class="col-lg-12"> 
-                                            <input type="file" name="fill" id="fill" class="lead-lg" required="required" aria-required="true">
-                                            <div class="small text-danger error" id="fill_error"></div>
-                                        </div>
-                                        
-                                        <div class="my-4 mt-xl-4">
-                                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Submit Now</a>
-                                        </div>
-                                    </form> 
-                                </div> 
-
-                                <div class="form__gradient h-100 w-100 position-absolute top-0 end-0"></div>
+                                    <div class="my-4 mt-xl-4">
+                                        <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">Submit Now</a>
+                                    </div>
+                                </form> 
+                                
                             </div> 
                         </div>
                     </div><!--//.col-->

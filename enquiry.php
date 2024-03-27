@@ -55,59 +55,57 @@
                     </div><!--//.col-->
 
                     <div class="col-lg-6">
-                        <div class="img__wraper position-relative">
-                            <img src="assets/images/career/we-are-hiring.webp" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" width="1200" height="692" alt="We are hiring">
-                            <div class="position-absolute top-0 start-0 w-100 h-100"></div> 
-
-                            <div class="position-relative py-4 py-lg-5">
-                                <div class="patient__login position-relative mx-3">
-                                    <h1 class="display-4 fw-semibold text-white text-uppercase my-4">Get A Quote</h1> 
-                                    <p class="lead-lg fw-medium text-white mb-4">Say hello and send us message.</p>
+                        <div class="position-relative">
+                            <div class="img__wraper h-100 ">
+                                <img src="assets/images/career/we-are-hiring.webp" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" width="1200" height="692" alt="We are hiring">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 opacity-75 " style="background-image: linear-gradient(180deg, var( --secondary ) 40%, #FFFFFF 70%);"></div> 
+                            </div>
+                            <div class="position-relative ps-4 pe-4 pe-lg-0 py-4 py-lg-5 ps-lg-5">
+                                <h1 class="display-6 fw-semibold text-white text-uppercase mb-3">Get A Quote</h1> 
+                                <p class="lead fw-normal text-white mb-4">Say hello and send us message.</p>
+                                
+                                <form action="#" class="row g-4"> 
+                                    <div class="col-lg-6"> 
+                                        <input type="text" name="text" class="form-control" placeholder="Moving From *" required>
+                                        <div class="small text-danger error" id="text_error"></div>
+                                    </div>
+                                    <div class="col-lg-6"> 
+                                        <input type="text" name="moving" class="form-control" placeholder="Moving To *" >
+                                        <div class="small text-danger error" id="moving_error"></div>
+                                    </div>
+                                    <div class="col-lg-6">   
+                                        <select class="form-select px-4" aria-label="Select A Service">
+                                            <option selected>Select A Service *</option>
+                                            <option value="1">International Move</option>
+                                            <option value="2">Corporate Relocation</option>
+                                            <option value="3">Domestic Move</option> 
+                                            <option value="3">Office Move</option> 
+                                            <option value="3">Storage & Warehousing</option> 
+                                            <option value="3">Pet Relocation</option> 
+                                            <option value="3">Specialized Container Shipping For Global Trade</option> 
+                                            <option value="3">Comprehensive Insurance</option> 
+                                            <option value="3">Inbound Service</option>  
+                                        </select> 
+                                    </div>
+                                    <div class="col-lg-6"> 
+                                        <input type="text" name="name" class="form-control" placeholder="Name *" required>
+                                        <div class="small text-danger error" id="name_error"></div>
+                                    </div>
+                                    <div class="col-lg-6"> 
+                                        <input type="email" name="email" class="form-control" placeholder="Email *" required>
+                                        <div class="small text-danger error" id="phone_error"></div>
+                                    </div>
+                                    <div class="col-lg-6"> 
+                                        <input type="text" name="phone" class="form-control" placeholder="Phone Nmber *" required>
+                                        <div class="small text-danger error" id="phone_error"></div>
+                                    </div> 
                                     
-                                    <form action="#" class="row g-4"> 
-                                        <div class="col-lg-6"> 
-                                            <input type="text" name="text" class="form-control fs-15 fw-light" placeholder="Moving From *" required>
-                                            <div class="small text-danger error" id="text_error"></div>
-                                        </div>
-                                        <div class="col-lg-6"> 
-                                            <input type="text" name="moving" class="form-control fs-15 fw-light" placeholder="Moving To *" >
-                                            <div class="small text-danger error" id="moving_error"></div>
-                                        </div>
-                                        <div class="col-lg-6">   
-                                            <select class="form-select px-4" aria-label="Select A Service">
-                                                <option selected>Select A Service *</option>
-                                                <option value="1">International Move</option>
-                                                <option value="2">Corporate Relocation</option>
-                                                <option value="3">Domestic Move</option> 
-                                                <option value="3">Office Move</option> 
-                                                <option value="3">Storage & Warehousing</option> 
-                                                <option value="3">Pet Relocation</option> 
-                                                <option value="3">Specialized Container Shipping For Global Trade</option> 
-                                                <option value="3">Comprehensive Insurance</option> 
-                                                <option value="3">Inbound Service</option>  
-                                            </select> 
-                                        </div>
-                                        <div class="col-lg-6"> 
-                                            <input type="text" name="name" class="form-control fs-15 fw-light" placeholder="Name *" required>
-                                            <div class="small text-danger error" id="name_error"></div>
-                                        </div>
-                                        <div class="col-lg-6"> 
-                                            <input type="email" name="email" class="form-control fs-15 fw-light" placeholder="Email *" required>
-                                            <div class="small text-danger error" id="phone_error"></div>
-                                        </div>
-                                        <div class="col-lg-6"> 
-                                            <input type="text" name="phone" class="form-control fs-15 fw-light" placeholder="Phone Nmber *" required>
-                                            <div class="small text-danger error" id="phone_error"></div>
-                                        </div> 
-                                        
-                                        <div class="my-4 mt-xl-4">
-                                            <a href="#" class="btn btn-primary rounded-pill height px-5 text-uppercase">SEND ENQUIRY</a>
-                                        </div>
-                                    </form> 
-                                </div> 
+                                    <div class="my-4 mt-xl-4">
+                                        <button type="submit" class="btn btn-primary rounded-pill height px-5 text-uppercase">SEND ENQUIRY</button>
+                                    </div>
+                                </form>  
+                            </div>
 
-                                <div class="form__gradient h-100 w-100 position-absolute top-0 end-0"></div>
-                            </div> 
                         </div>
                     </div><!--//.col-->
                 </div><!--//.row--> 

@@ -11,7 +11,7 @@
                         <p class="fs-2 text-white fw-light mb-0">Contact us now to get quote</p> 
                     </div><!--.//col-->
                     <div class="col-md-4 text-center text-md-end">
-                        <a href="#" class="btn btn-primary rounded-pill height">Get a Free Quote</a>
+                        <a href="<?php echo $base_url;?>enquiry.php" class="btn btn-primary rounded-pill height">Get a Free Quote</a>
                     </div>
                 </div><!--.//row--> 
             </div>

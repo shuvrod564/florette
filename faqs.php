@@ -43,7 +43,7 @@
 
         <!-- Frequently Asked Questions start --> 
         <section class="py-5">
-            <div class="container my-lg-5">
+            <div class="container py-lg-5">
                 <div class="text-center mx-auto mb-4" style="max-width: 50.75rem;">
                     <h2 class="fs-1 fw-light text-13 text-center unic_wrap center text-uppercase">Frequently Asked Questions </h2>
                     <p class="fs-4 text-dark fw-light text-center mb-0">
@@ -283,7 +283,7 @@
                             </div>
                         </div> 
 
-                        <p class="lead-lg text-25 fw-semibold py-5 my-lg-4">
+                        <p class="lead-lg text-25 fw-semibold pt-5 mb-4 mt-lg-4">
                             Remember that specific details might vary depending on the moving company, location, and personal preferences. It’s always a good idea to communicate directly with your chosen moving company to clarify any questions you have about the moving process.
                         </p>
 

@@ -1,7 +1,10 @@
 
 
 
-<section class="testimonial__wrapper d-flex align-items-start position-relative pt-5 pb-4 py-lg-5">  
+<section class="testimonial__wrapper <?php if (isset($bg) && $bg == 'white') { echo "not__white__theme"; } ?> d-flex align-items-start position-relative pt-5 pb-4 py-lg-5">  
+    <?php if (isset($bg) && $bg = 'white') { ?>
+        
+    <?php } else { ?>
         <img 
             src="assets/images/home/our-success-bg.webp" 
             srcset="
@@ -12,7 +15,9 @@
             alt="<?php echo $site_name;?>"
             class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-cover z-0" 
         />
-        <div class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background-color: rgba(19, 49, 76, 0.96);"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 z-1" style="background-color: rgba(19, 49, 76, 0.96);"></div> 
+    <?php } ?>
+
         <div class="container mt-lg-3 z-index">
             <h2 class="fs-1 fw-normal unic_wrap center text-white text-center text-uppercase">
                 Our Success Starts With Them

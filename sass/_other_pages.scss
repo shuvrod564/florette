@@ -40,19 +40,19 @@
  
 
 // our team start
-.our__team{
-     
-    .img__wrap{
-        width: 126px !important;
-        height: 126px;
-    }
+.team__thumbnail{
+    width: 126px !important;
+    height: 126px;
 }
+ 
 // our team End
 
 
-.img__wraper{
-    width: 50vw;
-    min-height: 28rem; 
+@media (min-width:992px) {
+
+    .img__wraper{
+        width: 50vw; position: absolute;top: 0%;left: 0%;
+    }
 }
 
 @media (max-width:575px) {
@@ -139,11 +139,14 @@
             box-shadow: none;
            
             &::after{
-                background-image:var(--minus-circle-icon) !important;
+                background-image:var(--minus-circle-icon) !important;background-size: 1.125rem;
             }
         }
         &::after{
             background-image:var(--plus-circle-icon) !important;
+            width: 1.5rem;
+            height: 1.5rem;
+            background-size: 1.5rem;
         }
     }
     .accordion-item {
