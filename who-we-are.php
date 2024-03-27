@@ -63,7 +63,7 @@
         <!-- Our Specialties section Start -->
         <section class="py-3">
             <div class="container">
-                <div class="row g-sm-4 gx-lg-5 align-items-center">
+                <div class="row g-5 gx-lg-5 align-items-center">
                     <div class="col-lg-6">
                         <figure>
                             <img src="assets/images/about/our-specialties.webp" class="img-fluid" width="624" height="524" alt="Our Specialties"> 
@@ -79,13 +79,14 @@
                         </p>
                     </div><!--//.col-->
                 </div><!--//.row-->
-                <div class="row g-sm-4 gx-lg-5 gy-lg-0 align-items-center">
-                    <div class="col-lg-6 order-2">
+
+                <div class="row g-5 gx-lg-0 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
                         <figure>
                             <img src="assets/images/about/excellence-service.webp" class="img-fluid" width="624" height="524" alt=" Excellence In Service"> 
                         </figure>
                     </div><!--//.col-->
-                    <div class="col-lg-6 order-1">
+                    <div class="col-lg-6 order-lg-1">
                         <h2 class="fs-1 fw-light text-13 unic_wrap">EXCELLENCE IN SERVICE</h2>
                         <p class="fs-4 text-dark fw-light mb-3">
                             Our commitment to excellence is evident in every aspect of our operations. 

@@ -20,3 +20,9 @@
             --eye: url('<?php echo $base_url;?>assets/images/gallery/eye-white.svg');
         }
     </style>
+    <style>
+         :root {
+            --plus-circle-icon: url('<?php echo $base_url;?>assets/images/icons/plus.svg');
+            --minus-circle-icon: url('<?php echo $base_url;?>assets/images/icons/minus.svg');
+        }
+    </style>

@@ -117,6 +117,14 @@
     }
 }
 
+@media (max-width:574px) {
+    .unic_wrap{
+        &.right::after {
+           left: 0;right: auto;
+        }
+    }
+}
+
 
 .why_choose_icon_box{
     width: 5rem;
@@ -320,28 +328,6 @@
     }
 }
 
- 
-// .florette__movers{
-//     .unic_wrap {
-//         position: relative;  
-//         margin-bottom: 2rem;
-    
-//         &::after{
-//             content: '';
-//             position: absolute;
-//             display: block;
-//             width: 5.5rem;
-//             height: 5px;
-//             background-color: #D7121A;
-//             border-radius: 2.25rem;
-//             bottom: -0.75rem;
-//             left: 19.437rem;
-//         }
-    
-//         &.center::after {
-//             left: 50%;transform: translateX(-50%);
-//         }
-//     }
-// }
+  
 
  

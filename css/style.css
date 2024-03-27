@@ -102,6 +102,12 @@
     width: 4rem;
   }
 }
+@media (max-width: 574px) {
+  .unic_wrap.right::after {
+    left: 0;
+    right: auto;
+  }
+}
 .why_choose_icon_box {
   width: 5rem;
 }
@@ -311,6 +317,102 @@
 
 .iti__country-list {
   max-width: 400px;
+}
+
+.our__team .img__wrap {
+  width: 126px !important;
+  height: 126px;
+}
+
+.img__wraper {
+  width: 50vw;
+  min-height: 28rem;
+}
+
+@media (max-width: 575px) {
+  .img__wraper {
+    width: 100vw;
+  }
+  .patient__login {
+    width: 41rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .img__wraper {
+    width: 91vw !important;
+  }
+  .patient__login {
+    width: 48rem !important;
+  }
+}
+.form__gradient {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, var(--secondary) 40%, #FFFFFF 70%);
+  opacity: 0.6;
+}
+
+.patient__login {
+  width: 50rem;
+  z-index: 999;
+}
+.patient__login .form-control {
+  height: 4.25rem;
+  border-radius: 0%;
+  font-weight: 500;
+  padding-left: 1.425rem;
+  background-color: #FFFFFF;
+}
+.patient__login .form-control::-moz-placeholder {
+  font-size: 1.25rem;
+  color: inherit;
+  font-family: inherit;
+  opacity: 0.6;
+}
+.patient__login .form-control::placeholder {
+  font-size: 1.25rem;
+  color: inherit;
+  font-family: inherit;
+  opacity: 0.6;
+}
+.patient__login .form-select {
+  width: 100%;
+  height: 4.25rem;
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: rgba(19, 49, 76, 0.5);
+  background-color: #fff;
+  background-image: url("../assets/images/icons/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+}
+
+.faq__wrapper .accordion-body {
+  padding-top: 1.5rem !important;
+  background-color: #fff !important;
+}
+.faq__wrapper .accordion-flush .accordion-item {
+  border: none !important;
+}
+.faq__wrapper .accordion-button {
+  background-color: var(--secondary) !important;
+  box-shadow: none;
+  color: #fff !important;
+}
+.faq__wrapper .accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: var(--secondary) !important;
+  box-shadow: none;
+}
+.faq__wrapper .accordion-button:not(.collapsed)::after {
+  background-image: var(--minus-circle-icon) !important;
+}
+.faq__wrapper .accordion-button::after {
+  background-image: var(--plus-circle-icon) !important;
+}
+.faq__wrapper .accordion-item {
+  margin-bottom: 0.15rem !important;
+  border-bottom: 2px solid #fff !important;
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
