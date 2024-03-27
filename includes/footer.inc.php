@@ -111,6 +111,7 @@
 
     <!-- JS: All Vendors --> 
     <script src="<?php echo $base_url;?>assets/js/vendors.min.js"></script>   
+    
     <!-- JS: Designer Script --> 
     <script src="<?php echo $base_url;?>assets/js/script.js"></script>  
 

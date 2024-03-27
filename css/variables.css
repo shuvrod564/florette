@@ -173,6 +173,10 @@ body {
   color: var(--brand) !important;
 }
 
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
 .text-dark {
   color: var(--dark) !important;
 }
@@ -330,9 +334,9 @@ ul li {
   color: var(--white);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--white);
-  border-color: var(--white);
-  color: var(--dark);
+  background-color: var(--dark);
+  border-color: var(--dark);
+  color: var(--white);
 }
 
 .btn-outline-primary {
@@ -514,27 +518,6 @@ ul li {
   }
   .fs-13 {
     font-size: 11px;
-  }
-  .lead {
-    font-size: 1rem;
-  }
-  .lead-sm {
-    font-size: 1.067rem;
-  }
-  .h1 {
-    font-size: 1.875rem;
-  }
-  .h1.sm {
-    font-size: 1.625rem;
-  }
-  .h1.lg {
-    font-size: 2.125rem;
-  }
-  h2, .h2 {
-    font-size: 1.5rem;
-  }
-  h3, .h3 {
-    font-size: 1.45rem;
   }
   .btn {
     font-size: 0.937rem;
