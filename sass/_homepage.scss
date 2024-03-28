@@ -289,42 +289,45 @@
 
  
  
- 
-.accordion {
-    .accordion-item {  
-        background-color: #0D679917;  
-        border: 1px solid #0D679917 !important;
-        border-radius: 4px !important;
-    
-        &:not(:last-child) {
-            margin-bottom: 1rem; 
-        }
-    
-        .accordion-button{ 
-            border: 0;box-shadow: none; 
-            color: var(--secondary);
-            font-size: 1.25rem; 
-            background-color: transparent;     
-    
-            &:not(.collapsed) {
-                color:var(--brand); 
-                box-shadow: none; 
-                .desc { display: block; }
+.faq__wrap{
+
+    .accordion {
+        .accordion-item {  
+            background-color: #0D679917 !important;  
+            border: 1px solid #0D679917 !important;
+            border-radius: 4px !important;
+        
+            &:not(:last-child) {
+                margin-bottom: 1rem; 
+            }
+        
+            .accordion-button{ 
+                
+                border: 0;box-shadow: none; 
+                color: var(--secondary) !important;
+                font-size: 1.25rem !important; 
+                background-color: rgba(20, 49, 76, 0.2) !important;     
+        
+                &:not(.collapsed) {
+                    color:var(--brand); 
+                    box-shadow: none; 
+                    .desc { display: block; }
+                    &::after{
+                        background-image: none !important; 
+                    }  
+                } 
                 &::after{
-                    background-image: none; 
+                    background-image:none !important;  
                 }  
-            } 
-            &::after{
-                background-image:none;  
-            }  
-        }
-        .accordion-body {
-            padding-top: 0;font-size: 0.937rem;
-    
-            p:last-child { margin-bottom: 0; }
-        }
-    } 
-}
+            }
+            .accordion-body {
+                padding-top: 0;font-size: 0.937rem;
+        
+                p:last-child { margin-bottom: 0; }
+            }
+        } 
+    }
+ }
 
 @media (max-width:575px) {
     .accordion {

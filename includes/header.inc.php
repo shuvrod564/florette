@@ -51,10 +51,10 @@
                         <div class="dropdown-menu p-2 bg-white rounded-3" aria-labelledby="serviceDrop"> 
                             <ul class="d-flex flex-column gap-1">         
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">International Relocation</a>
+                                    <a href="international-movers.php" class="dropdown-item rounded-1">Premier International Relocation</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item rounded-1">Corporate Relocation</a>
+                                    <a href="corporate-relocation-services.php" class="dropdown-item rounded-1">Corporate Relocation Services</a>
                                 </li>
                                 <li>
                                     <a href="#" class="dropdown-item rounded-1">Domestic Move</a>
@@ -153,10 +153,10 @@
                  
                     <ul class="collapse" id="collapse1"> 
                         <li>
-                            <a href="#" class="dropdown-item rounded-1">International Relocation</a>
+                            <a href="international-movers.php" class="dropdown-item rounded-1">Premier International Relocation</a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-item rounded-1">Corporate Relocation</a>
+                            <a href="corporate-relocation-services.php" class="dropdown-item rounded-1">Corporate Relocation Services</a>
                         </li>
                         <li>
                             <a href="#" class="dropdown-item rounded-1">Domestic Move</a>

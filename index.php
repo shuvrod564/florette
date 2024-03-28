@@ -739,9 +739,7 @@
             </div>
         </div><!--//.container-->
     </section>
-    <!--  Your Gateway To A Seamless Move End -->
-
-     
+    <!--  Your Gateway To A Seamless Move End --> 
 
     <!-- Latest News section Start -->
     <section class="py-5">
@@ -812,11 +810,10 @@
             </div> 
         </div><!--//.container-->
     </section>
-    <!-- Latest News section End -->
- 
+    <!-- Latest News section End --> 
 
     <!-- FAQ section Start -->
-    <section class="py-4 py-md-5">
+    <section class="py-4 py-md-5 faq__wrap">
         <div class="container">
         <h2 class="fs-1 text-dark fw-normal unic_wrap center text-center text-uppercase">FAQ</h2> 
             <div class="faq__wrapper mx-auto"> 

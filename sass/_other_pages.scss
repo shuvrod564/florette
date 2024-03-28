@@ -156,3 +156,63 @@
     } 
 }
  
+// services pages start
+
+.national_mover{
+    margin-top: 7.125rem !important;
+
+    .national_wrap{
+        
+        background-color: #000000 !important; 
+
+        .form-select{
+            color: rgba(21, 21, 21, 0.2);
+        }
+    }
+}
+
+@media (max-width:575px) {
+
+    .national_mover {
+        margin-top: 2.125rem !important; 
+    }
+}
+
+
+.delivery__card{
+    border: 1px solid rgba(112, 112, 112, 0.5);
+    padding: 2.5rem 2.25rem;
+}
+
+.corporate_move { 
+
+    .accordion-flush .accordion-item { 
+        border: none !important;
+        border-radius: 1.5rem !important;
+      }
+    
+    .accordion-button{ 
+        background-color: #fff !important;
+        box-shadow: none !important;
+        color: #080808 !important;    
+        font-size: 1.25rem !important;
+       
+        &:not(.collapsed) {
+            color:var(--brand);
+            background-color: transparent !important; 
+            box-shadow: none !important;
+            &::after{
+                background-image:none !important;
+            }
+        }
+        &::after{
+            background-image:none !important;
+        }
+    }
+    .accordion-item {
+        margin-bottom: 1.45rem !important; 
+        .accordion-button{
+            border-radius: 1.5rem !important;
+        }  
+    } 
+}

@@ -201,6 +201,26 @@ body {
   color: #1A1A1A !important;
 }
 
+.text-08 {
+  color: #080808 !important;
+}
+
+.text-14 {
+  color: #14314C !important;
+}
+
+.text-21 {
+  color: #212121 !important;
+}
+
+.text-37 {
+  color: #37474F !important;
+}
+
+.text-37B {
+  color: rgba(55, 71, 79, 0.7215686275) !important;
+}
+
 .text-13 {
   color: var(--secondary) !important;
 }
